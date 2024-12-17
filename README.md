@@ -3,5 +3,5 @@
 
 
 Coming soon!
-
-Join https://t.me/mainstreamtoken group for early notifications.
+![Mainstream Token](https://mainstreamtoken.com/mtcoin.png)
+Join telegram group [https://t.me/mainstreamtoken](https://t.me/mainstreamtoken) for early notifications.
