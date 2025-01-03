@@ -204,7 +204,15 @@ function WhatIsMainstreamToken() {
                     />
                 </div>
                 <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
-		CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+		CA : <span 
+          style={{cursor: 'pointer', textDecoration: 'underline'}}
+          onClick={() => {
+            navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3');
+            alert('Contract address copied to clipboard!');
+          }}
+        >
+          HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+        </span>
                 </Heading>
                 <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
                     What is Mainstream Token?
