@@ -121,5 +121,3 @@ GitHub Discussions: https://github.com/mainstreamorganization/mainstreamtoken/di
 Last Updated: January 3, 2025
 
 YOU HEREBY ACKNOWLEDGE THAT YOU HAVE READ THIS DOCUMENTATION, UNDERSTAND ITS CONTENT, AND AGREE TO BE BOUND BY ITS TERMS. YOU FURTHER AGREE THAT THIS DOCUMENTATION CONSTITUTES THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN THE PARTIES, AND SUPERSEDES ALL PRIOR PROPOSALS, UNDERSTANDINGS, OR REPRESENTATIONS, WHETHER ORAL OR WRITTEN.
-
-DISCLAIMER: This Documentation is provided for informational purposes only and does not constitute specific legal advice. You should consult a qualified attorney familiar with cryptocurrency, blockchain technology, and the laws of your jurisdiction to ensure full compliance and the enforceability of these terms in your specific circumstances.
