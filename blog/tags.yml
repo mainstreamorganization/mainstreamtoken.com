@@ -17,3 +17,63 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+mainstream:
+  label: Mainstream
+  permalink: /mainstream
+  description: Mainstream Token related content
+
+mtl:
+  label: MTL
+  permalink: /mtl
+  description: Mainstream Token License Protocol
+
+mtlprotocol:
+  label: MTL Protocol
+  permalink: /mtlprotocol
+  description: Mainstream Token License Protocol
+
+digitalrights:
+  label: Digital Rights
+  permalink: /digitalrights
+  description: Digital rights management topics
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Blockchain technology and applications
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial Intelligence topics
+
+integration:
+  label: Integration
+  permalink: /integration
+  description: System integration topics
+
+community:
+  label: Community
+  permalink: /community
+  description: Community updates and news
+
+update:
+  label: Update
+  permalink: /update
+  description: Project updates and announcements
+
+launch:
+  label: Launch
+  permalink: /launch
+  description: Product and feature launches
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Important announcements
+
+bitcoin:
+  label: Bitcoin
+  permalink: /bitcoin
+  description: Bitcoin-related content
