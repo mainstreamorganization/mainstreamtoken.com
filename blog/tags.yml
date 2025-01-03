@@ -87,3 +87,63 @@ mainstreamtoken:
   label: MainstreamToken
   permalink: /mainstreamtoken
   description: MainstreamToken ecosystem topics
+
+mtlprotocol:
+  label: MTL Protocol
+  permalink: /mtlprotocol
+  description: Mainstream Token License Protocol
+
+digitalrights:
+  label: Digital Rights
+  permalink: /digitalrights
+  description: Digital rights management topics
+
+blockchain:
+  label: Blockchain
+  permalink: /blockchain
+  description: Blockchain technology and applications
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Artificial Intelligence topics
+
+integration:
+  label: Integration
+  permalink: /integration
+  description: System integration topics
+
+community:
+  label: Community
+  permalink: /community
+  description: Community updates and news
+
+update:
+  label: Update
+  permalink: /update
+  description: Project updates and announcements
+
+launch:
+  label: Launch
+  permalink: /launch
+  description: Product and feature launches
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Important announcements
+
+bitcoin:
+  label: Bitcoin
+  permalink: /bitcoin
+  description: Bitcoin-related content
+
+protocol:
+  label: Protocol
+  permalink: /protocol
+  description: Technology protocols and standards
+
+mainstreamtoken:
+  label: MainstreamToken
+  permalink: /mainstreamtoken
+  description: MainstreamToken ecosystem topics
