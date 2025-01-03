@@ -51,7 +51,10 @@ You shall not rely on any forward-looking statements, projections, or informatio
 
 ## 4. VERIFICATION AND USAGE REQUIREMENTS
 
-### 4.1 License Parameters
+### 4.1 Community Participation
+- Follow community guidelines, found here: [Community Guidelines](/contact/community-guidelines)
+
+### 4.2 License Parameters
 To maintain certain usage rights within the MTL Protocol, You may be required to meet certain token thresholds or other verification criteria. Records may be stored on or off a public ledger, and there is no guarantee of accuracy, permanence, or security.
 
 ### 4.2 Revocation of Access
