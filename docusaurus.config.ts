@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mainstreamorganization', // Usually your GitHub org/user name.
-  projectName: 'mainstreamtoken', // Usually your repo name.
+  projectName: 'mainstreamtoken.com', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mainstreamorganization/mainstreamtoken/tree/main/',
+            'https://github.com/mainstreamorganization/mainstreamtoken.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,7 +56,7 @@ const config: Config = {
          */
         path: './news',
           editUrl:
-            'https://github.com/mainstreamorganization/mainstreamtoken/tree/main/',
+            'https://github.com/mainstreamorganization/mainstreamtoken.com/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -111,7 +111,7 @@ const config: Config = {
         },
         {to: '/news', label: 'News', position: 'left'},
         {
-          href: 'https://github.com/mainstreamorganization/mainstreamtoken',
+          href: 'https://github.com/mainstreamorganization/mainstreamtoken.com',
           label: 'GitHub',
           position: 'right',
         },
@@ -237,7 +237,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserved.</span>`,
+      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserve.d CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3.</span>`,
     },
     prism: {
       theme: prismThemes.github,
