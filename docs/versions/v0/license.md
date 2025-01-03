@@ -5,7 +5,7 @@ title: MTL License v0.1
 
 # MainstreamToken License (MTL) v0.1
 
-The complete MainstreamToken License Version 0.1 is provided below. You can find the full technical specifications and parameters in the [Version v0.1](/docs/versions/v0) section.
+The complete MainstreamToken License Version 0.1 is provided below. You can find the full technical specifications and parameters in the [Version v0.1 Parameters](/docs/versions/v0/parameters) section.
 
                                  MAINSTREAM TOKEN LICENSE (MTL) v0.1
 
