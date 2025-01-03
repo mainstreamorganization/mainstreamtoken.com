@@ -85,7 +85,7 @@ To the fullest extent permitted by applicable law, in no event shall the Protoco
 - Other losses of any kind, whether based in contract, tort, or any other legal theory
 
 ### 6.2 Aggregate Liability Cap
-The aggregate liability of the Protocol and its affiliates shall not exceed the number of $MAIN tokens You originally acquired, if any, and that no other monetary remedy shall be provided or available.
+The aggregate liability of the Protocol and its affiliates, if any is found to exist, shall be limited exclusively to the number of $MAIN tokens You originally acquired, if any, and that no remedy of any kind will be provided, and specifically that no monetary payment, alternative payment, or compensation shall be provided or available.
 
 ## 7. NO REMEDIES; NO GUARANTEES
 
