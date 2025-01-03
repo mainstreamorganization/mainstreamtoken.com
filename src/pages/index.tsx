@@ -175,16 +175,21 @@ function HomepageHeader() {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
                     <div className={styles.videoContainer}>
-                        <iframe
-                            className={styles.heroVideo}
-                            src="https://www.youtube.com/embed/KF2wXUxxIhQ?autoplay=1&mute=1&loop=1&playlist=KF2wXUxxIhQ&rel=0&modestbranding=1"
-                            title="Mainstream Token Video"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-                    <div className={styles.videoTitle}>
-                        "The Cryptic Hodler's Guide to Mainstream Token"
+                        <a 
+                            href="https://www.youtube.com/watch?v=KF2wXUxxIhQ" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: 'none', color: 'inherit' }}
+                        >
+                            <img
+                                src="/img/youtube-icon.png"
+                                alt="Watch on YouTube"
+                                style={{ width: '100px', height: 'auto', cursor: 'pointer' }}
+                            />
+                            <div className={styles.videoTitle}>
+                                "The Cryptic Hodler's Guide to Mainstream Token"
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
