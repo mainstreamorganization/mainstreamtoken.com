@@ -21,7 +21,6 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Whitepaper',
       items: [
-        'whitepaper/table_of_contents',
         'whitepaper/executive_summary',
         'whitepaper/introduction',
         'whitepaper/aidamis',
@@ -35,13 +34,13 @@ const sidebars: SidebarsConfig = {
         'whitepaper/appendices'
       ]
     },
-     {
+    {
       type: 'category',
       label: 'Tutorial',
-       items: [
+      items: [
         'tutorial/encoder-decoder',
         'tutorial/buy-mt-tokens',
-        ],
+      ],
     },
   ],
 };

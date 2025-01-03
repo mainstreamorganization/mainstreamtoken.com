@@ -77,3 +77,13 @@ bitcoin:
   label: Bitcoin
   permalink: /bitcoin
   description: Bitcoin-related content
+
+protocol:
+  label: Protocol
+  permalink: /protocol
+  description: Technology protocols and standards
+
+mainstreamtoken:
+  label: MainstreamToken
+  permalink: /mainstreamtoken
+  description: MainstreamToken ecosystem topics
