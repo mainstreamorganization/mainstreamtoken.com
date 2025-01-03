@@ -6,8 +6,6 @@
 
 /aider_env
 
-.github
-
 # Generated files
 .docusaurus
 .cache-loader
