@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/roadmap",
+  "title": "Roadmap to Adoption",
+  "description": "This roadmap outlines the strategic phases for the MainstreamToken (MT) project, from its initial launch to its goal of achieving widespread adoption, while focusing on concrete timelines and deliverables, and with transparency at all levels.",
+  "source": "@site/docs/whitepaper/roadmap.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/roadmap",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Community Engagement",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/community_engagement"
+  },
+  "next": {
+    "title": "Legal and Risk Disclaimer",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/legal_disclaimer"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/community_engagement",
+  "title": "Community Engagement",
+  "description": "The MainstreamToken (MT) project values community engagement, transparency, and collaborative growth. This section details how the MT project currently fosters community involvement.",
+  "source": "@site/docs/whitepaper/community_engagement.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/community_engagement",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/community_engagement",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/community_engagement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Ecosystem Overview",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/ecosystem_overview"
+  },
+  "next": {
+    "title": "Roadmap to Adoption",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/roadmap"
+  }
+}

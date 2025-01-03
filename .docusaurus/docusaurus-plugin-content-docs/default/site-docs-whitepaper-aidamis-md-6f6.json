@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/aidamis",
+  "title": "AIDAMIS Framework (Under Development)",
+  "description": "(Artificial Intelligence Directive for Autonomous Management and Insight Strategy)",
+  "source": "@site/docs/whitepaper/aidamis.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/aidamis",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/aidamis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/aidamis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/introduction"
+  },
+  "next": {
+    "title": "MainstreamToken ($MAIN) Details",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/mainstreamtoken_details"
+  }
+}

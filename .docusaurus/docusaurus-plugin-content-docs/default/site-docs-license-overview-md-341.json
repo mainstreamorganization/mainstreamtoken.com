@@ -1,0 +1,23 @@
+{
+  "id": "license/overview",
+  "title": "MTL Experimental Protocol Overview",
+  "description": "The Mainstream Token License (MTL) experimental protocol is a decentralized digital rights management system. It allows creators to define specific usage rights and parameters for their digital assets, which can be enforced through various methods, including but not limited to the Mainstream Token ($MAIN) on the Solana blockchain, user-created smart contracts, other blockchains, or even without a blockchain where any form of payment is accepted.",
+  "source": "@site/docs/license/overview.md",
+  "sourceDirName": "license",
+  "slug": "/license/overview",
+  "permalink": "/mainstreamtoken.com/docs/license/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/license/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "whitepaper",
+  "next": {
+    "title": "MTL License v0.1",
+    "permalink": "/mainstreamtoken.com/docs/versions/v0/license"
+  }
+}

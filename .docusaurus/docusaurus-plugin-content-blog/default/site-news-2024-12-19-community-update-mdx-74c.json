@@ -1,0 +1,66 @@
+{
+  "permalink": "/mainstreamtoken.com/news/community-update-dec-2024",
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/news/2024-12-19-community-update.mdx",
+  "source": "@site/news/2024-12-19-community-update.mdx",
+  "title": "Community Update - December 2024",
+  "description": "A community update for Mainstream Token",
+  "date": "2024-12-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "community",
+      "permalink": "/mainstreamtoken.com/news/tags/community"
+    },
+    {
+      "inline": true,
+      "label": "update",
+      "permalink": "/mainstreamtoken.com/news/tags/update"
+    },
+    {
+      "inline": true,
+      "label": "mainstreamtoken",
+      "permalink": "/mainstreamtoken.com/news/tags/mainstreamtoken"
+    },
+    {
+      "inline": true,
+      "label": "blockchain",
+      "permalink": "/mainstreamtoken.com/news/tags/blockchain"
+    }
+  ],
+  "readingTime": 0.695,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mainstream Team",
+      "title": "Core Team",
+      "url": "https://github.com/mainstreamorganization",
+      "imageURL": "https://github.com/mainstreamorganization.png",
+      "key": "mainstream",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Community Update - December 2024",
+    "description": "A community update for Mainstream Token",
+    "slug": "community-update-dec-2024",
+    "authors": [
+      "mainstream"
+    ],
+    "tags": [
+      "community",
+      "update",
+      "mainstreamtoken",
+      "blockchain"
+    ],
+    "date": "2024-12-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "A Birthday Gift to Crypto: Mainstream Token Launches on Bitcoin's Anniversary",
+    "permalink": "/mainstreamtoken.com/news/launch-announcement"
+  },
+  "nextItem": {
+    "title": "AI Integration in Mainstream Token",
+    "permalink": "/mainstreamtoken.com/news/ai-integration"
+  }
+}

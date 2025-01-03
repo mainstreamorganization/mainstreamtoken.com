@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/table_of_contents",
+  "title": "Table of Contents",
+  "description": "*   Executive Summary",
+  "source": "@site/docs/whitepaper/table_of_contents.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/table_of_contents",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/table_of_contents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/table_of_contents.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "MTL Parameters v0.1",
+    "permalink": "/mainstreamtoken.com/docs/versions/v0/parameters"
+  },
+  "next": {
+    "title": "Executive Summary",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/executive_summary"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/introduction",
+  "title": "Introduction",
+  "description": "Digital Rights Management Evolution:",
+  "source": "@site/docs/whitepaper/introduction.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/introduction",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Executive Summary",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/executive_summary"
+  },
+  "next": {
+    "title": "AIDAMIS Framework (Under Development)",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/aidamis"
+  }
+}

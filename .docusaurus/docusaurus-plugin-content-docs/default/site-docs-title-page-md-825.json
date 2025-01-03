@@ -1,0 +1,20 @@
+{
+  "id": "title_page",
+  "title": "MainstreamToken (MT): Rights Revolution Through AI-Driven Tokenomics",
+  "description": "Tagline: Token-Based Continuous Rights Protocol",
+  "source": "@site/docs/title_page.md",
+  "sourceDirName": ".",
+  "slug": "/title_page",
+  "permalink": "/docs/title_page",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/title_page.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Team",
+    "permalink": "/docs/team"
+  }
+}

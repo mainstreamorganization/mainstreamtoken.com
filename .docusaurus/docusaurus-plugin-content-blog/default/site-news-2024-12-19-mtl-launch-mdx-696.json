@@ -1,0 +1,74 @@
+{
+  "permalink": "/mainstreamtoken.com/news/mtl-launch",
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/news/2024-12-19-mtl-launch.mdx",
+  "source": "@site/news/2024-12-19-mtl-launch.mdx",
+  "title": "Mainstream Token License Protocol Launch",
+  "description": "Announcing the launch of the Mainstream Token License Protocol",
+  "date": "2024-12-18T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "mtl",
+      "permalink": "/mainstreamtoken.com/news/tags/mtl"
+    },
+    {
+      "inline": true,
+      "label": "launch",
+      "permalink": "/mainstreamtoken.com/news/tags/launch"
+    },
+    {
+      "inline": true,
+      "label": "protocol",
+      "permalink": "/mainstreamtoken.com/news/tags/protocol"
+    },
+    {
+      "inline": true,
+      "label": "mtlprotocol",
+      "permalink": "/mainstreamtoken.com/news/tags/mtlprotocol"
+    },
+    {
+      "inline": true,
+      "label": "digitalrights",
+      "permalink": "/mainstreamtoken.com/news/tags/digitalrights"
+    },
+    {
+      "inline": true,
+      "label": "blockchain",
+      "permalink": "/mainstreamtoken.com/news/tags/blockchain"
+    }
+  ],
+  "readingTime": 0.81,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mainstream Team",
+      "title": "Core Team",
+      "url": "https://github.com/mainstreamorganization",
+      "imageURL": "https://github.com/mainstreamorganization.png",
+      "key": "mainstream",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Mainstream Token License Protocol Launch",
+    "description": "Announcing the launch of the Mainstream Token License Protocol",
+    "slug": "mtl-launch",
+    "authors": [
+      "mainstream"
+    ],
+    "tags": [
+      "mtl",
+      "launch",
+      "protocol",
+      "mtlprotocol",
+      "digitalrights",
+      "blockchain"
+    ],
+    "date": "2024-12-18T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Welcome to Mainstream Token",
+    "permalink": "/mainstreamtoken.com/news/welcome"
+  }
+}

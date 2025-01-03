@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-extras/encoder-decoder",
+  "title": "Using the MTL Encoder and Decoder",
+  "description": "This tutorial will guide you through using the MTL Encoder and Decoder apps to create and understand Mainstream Token Licenses (MTL).",
+  "source": "@site/docs/tutorial-extras/encoder-decoder.md",
+  "sourceDirName": "tutorial-extras",
+  "slug": "/tutorial-extras/encoder-decoder",
+  "permalink": "/docs/tutorial-extras/encoder-decoder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/tutorial-extras/encoder-decoder.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "How to Buy Mainstream Tokens (MT)",
+    "permalink": "/docs/tutorial-extras/buy-mt-tokens"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tokenomics/distribution",
+  "title": "Token Distribution",
+  "description": "The MainstreamToken (MT) distribution is structured to ensure long-term sustainability and balanced allocation across key stakeholders:",
+  "source": "@site/docs/tokenomics/distribution.md",
+  "sourceDirName": "tokenomics",
+  "slug": "/tokenomics/distribution",
+  "permalink": "/mainstreamtoken.com/docs/tokenomics/distribution",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/tokenomics/distribution.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

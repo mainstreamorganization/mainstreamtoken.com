@@ -1,0 +1,24 @@
+{
+  "id": "whitepaper/appendices",
+  "title": "Appendices & Reference",
+  "description": "This section provides supplementary information and references to support the main content of the MainstreamToken (MT) whitepaper.",
+  "source": "@site/docs/whitepaper/appendices.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/appendices",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/appendices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/appendices.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Conclusion",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/conclusion"
+  },
+  "next": {
+    "title": "Using the MTL Encoder and Decoder",
+    "permalink": "/mainstreamtoken.com/docs/tutorial/encoder-decoder"
+  }
+}

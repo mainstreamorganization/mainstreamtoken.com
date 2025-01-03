@@ -1,0 +1,18 @@
+{
+  "id": "license/versions/v0",
+  "title": "MTL Experimental Protocol Version 0 (v0)",
+  "description": "This document outlines the specifications for version 0 of the Mainstream Token License (MTL) experimental protocol. This version introduces the core features of the MTL experimental protocol, including parameter-based licensing, token-based verification, and revenue distribution.",
+  "source": "@site/docs/license/versions/v0.md",
+  "sourceDirName": "license/versions",
+  "slug": "/license/versions/v0",
+  "permalink": "/mainstreamtoken.com/docs/license/versions/v0",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/license/versions/v0.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

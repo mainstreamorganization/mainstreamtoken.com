@@ -1,0 +1,18 @@
+{
+  "id": "license/parameters",
+  "title": "MTL License Parameters",
+  "description": "The Mainstream Token License (MTL) protocol uses a parameter-based system to define the terms of a license. These parameters are encoded into a unique MTL string, which is then used to verify access to the licensed digital asset.",
+  "source": "@site/docs/license/parameters.md",
+  "sourceDirName": "license",
+  "slug": "/license/parameters",
+  "permalink": "/mainstreamtoken.com/docs/license/parameters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/license/parameters.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "permalink": "/news/community-update-july-2024",
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/news/2024-07-15-community-update.mdx",
+  "source": "@site/news/2024-07-15-community-update.mdx",
+  "title": "Community Update - July 2024",
+  "description": "A community update for Mainstream Token",
+  "date": "2024-12-20T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "community",
+      "permalink": "/news/tags/community"
+    },
+    {
+      "inline": true,
+      "label": "update",
+      "permalink": "/news/tags/update"
+    },
+    {
+      "inline": true,
+      "label": "mainstreamtoken",
+      "permalink": "/news/tags/mainstreamtoken"
+    },
+    {
+      "inline": true,
+      "label": "blockchain",
+      "permalink": "/news/tags/blockchain"
+    }
+  ],
+  "readingTime": 0.695,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mainstream Team",
+      "title": "Core Team",
+      "url": "https://github.com/mainstreamorganization",
+      "imageURL": "https://github.com/mainstreamorganization.png",
+      "key": "mainstream",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "title": "Community Update - July 2024",
+    "description": "A community update for Mainstream Token",
+    "slug": "community-update-july-2024",
+    "authors": [
+      "mainstream"
+    ],
+    "tags": [
+      "community",
+      "update",
+      "mainstreamtoken",
+      "blockchain"
+    ],
+    "date": "2024-12-20T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Community Update - December 2024",
+    "permalink": "/news/community-update-dec-2024"
+  }
+}

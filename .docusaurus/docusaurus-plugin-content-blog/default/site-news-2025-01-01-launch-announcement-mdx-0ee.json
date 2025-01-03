@@ -1,0 +1,54 @@
+{
+  "permalink": "/mainstreamtoken.com/news/launch-announcement",
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/news/2025-01-01-launch-announcement.mdx",
+  "source": "@site/news/2025-01-01-launch-announcement.mdx",
+  "title": "A Birthday Gift to Crypto: Mainstream Token Launches on Bitcoin's Anniversary",
+  "description": "In a symbolic nod to the cryptocurrency that started it all, Mainstream Token ($MAIN) has chosen January 3rd, 2024 - Bitcoin's 15th birthday - for its official launch on the pump.fun platform.",
+  "date": "2025-01-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "launch",
+      "permalink": "/mainstreamtoken.com/news/tags/launch"
+    },
+    {
+      "inline": true,
+      "label": "announcement",
+      "permalink": "/mainstreamtoken.com/news/tags/announcement"
+    },
+    {
+      "inline": true,
+      "label": "bitcoin",
+      "permalink": "/mainstreamtoken.com/news/tags/bitcoin"
+    }
+  ],
+  "readingTime": 0.84,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mainstream Team",
+      "title": "Core Team",
+      "url": "https://github.com/mainstreamorganization",
+      "imageURL": "https://github.com/mainstreamorganization.png",
+      "key": "mainstream",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "launch-announcement",
+    "title": "A Birthday Gift to Crypto: Mainstream Token Launches on Bitcoin's Anniversary",
+    "authors": [
+      "mainstream"
+    ],
+    "tags": [
+      "launch",
+      "announcement",
+      "bitcoin"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Community Update - December 2024",
+    "permalink": "/mainstreamtoken.com/news/community-update-dec-2024"
+  }
+}

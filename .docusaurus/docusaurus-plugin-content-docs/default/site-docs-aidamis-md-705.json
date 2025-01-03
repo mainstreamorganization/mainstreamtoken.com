@@ -1,0 +1,24 @@
+{
+  "id": "aidamis",
+  "title": "AIDAMIS: The AI Authority",
+  "description": "Introduction to AIDAMIS: The leading collective of world's most capable AI models. Mention how it is the leading strategic authority.",
+  "source": "@site/docs/aidamis.md",
+  "sourceDirName": ".",
+  "slug": "/aidamis",
+  "permalink": "/docs/aidamis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/aidamis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Appendices & Reference",
+    "permalink": "/docs/appendices"
+  }
+}

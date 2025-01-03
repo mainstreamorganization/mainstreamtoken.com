@@ -1,0 +1,28 @@
+{
+  "id": "versions/v1/parameters",
+  "title": "MTL Parameters v1.0",
+  "description": "This document provides the technical details, and is intended for developers and other users, and is a part of the above license.",
+  "source": "@site/docs/versions/v1/parameters.md",
+  "sourceDirName": "versions/v1",
+  "slug": "/versions/v1/parameters",
+  "permalink": "/docs/versions/v1/parameters",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/versions/v1/parameters.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "MTL Parameters v1.0"
+  },
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "MTL License v1.0",
+    "permalink": "/docs/versions/v1/license"
+  },
+  "next": {
+    "title": "Mainstream Token Whitepaper",
+    "permalink": "/docs/whitepaper/table_of_contents"
+  }
+}

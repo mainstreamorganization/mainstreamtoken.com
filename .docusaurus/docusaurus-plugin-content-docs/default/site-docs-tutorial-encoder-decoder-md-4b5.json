@@ -1,0 +1,29 @@
+{
+  "id": "tutorial/encoder-decoder",
+  "title": "Using the MTL Encoder and Decoder",
+  "description": "Learn how to use the MTL Encoder and Decoder apps to create and verify license strings",
+  "source": "@site/docs/tutorial/encoder-decoder.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/encoder-decoder",
+  "permalink": "/mainstreamtoken.com/docs/tutorial/encoder-decoder",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/tutorial/encoder-decoder.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Using the MTL Encoder and Decoder",
+    "description": "Learn how to use the MTL Encoder and Decoder apps to create and verify license strings"
+  },
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Appendices & Reference",
+    "permalink": "/mainstreamtoken.com/docs/whitepaper/appendices"
+  },
+  "next": {
+    "title": "How to Buy Mainstream Tokens ($MAIN)",
+    "permalink": "/mainstreamtoken.com/docs/tutorial/buy-mt-tokens"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tutorial/buy-mt-tokens",
+  "title": "How to Buy Mainstream Tokens ($MAIN)",
+  "description": "This tutorial will guide you through the process of purchasing Mainstream Tokens ($MAIN) to support the project.",
+  "source": "@site/docs/tutorial/buy-mt-tokens.md",
+  "sourceDirName": "tutorial",
+  "slug": "/tutorial/buy-mt-tokens",
+  "permalink": "/mainstreamtoken.com/docs/tutorial/buy-mt-tokens",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/tutorial/buy-mt-tokens.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "whitepaper",
+  "previous": {
+    "title": "Using the MTL Encoder and Decoder",
+    "permalink": "/mainstreamtoken.com/docs/tutorial/encoder-decoder"
+  }
+}

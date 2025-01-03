@@ -1,0 +1,15 @@
+{
+  "id": "whitepaper/full",
+  "title": "Table of Contents",
+  "description": "*   Executive Summary",
+  "source": "@site/docs/whitepaper/full.md",
+  "sourceDirName": "whitepaper",
+  "slug": "/whitepaper/full",
+  "permalink": "/mainstreamtoken.com/docs/whitepaper/full",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/docs/whitepaper/full.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

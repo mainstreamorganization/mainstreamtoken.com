@@ -1,0 +1,24 @@
+{
+  "id": "legal_disclaimer",
+  "title": "Legal and Risk Disclaimer",
+  "description": "Clear Disclaimers: About the inherent risks of memecoins.",
+  "source": "@site/docs/legal_disclaimer.md",
+  "sourceDirName": ".",
+  "slug": "/legal_disclaimer",
+  "permalink": "/docs/legal_disclaimer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/legal_disclaimer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/introduction"
+  },
+  "next": {
+    "title": "MainstreamToken (MT): The Details",
+    "permalink": "/docs/mainstreamtoken_details"
+  }
+}

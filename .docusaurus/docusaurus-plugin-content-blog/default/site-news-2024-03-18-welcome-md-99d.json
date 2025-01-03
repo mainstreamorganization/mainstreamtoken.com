@@ -1,0 +1,53 @@
+{
+  "permalink": "/news/welcome",
+  "editUrl": "https://github.com/mainstreamorganization/mainstreamtoken/tree/main/news/2024-03-18-welcome.md",
+  "source": "@site/news/2024-03-18-welcome.md",
+  "title": "Welcome to Mainstream Token",
+  "description": "We're excited to announce the launch of Mainstream Token - an AI-powered cryptocurrency community token designed to revolutionize digital asset management.",
+  "date": "2024-03-18T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Hello",
+      "permalink": "/news/tags/hello",
+      "description": "Hello tag description"
+    },
+    {
+      "inline": true,
+      "label": "mainstream",
+      "permalink": "/news/tags/mainstream"
+    }
+  ],
+  "readingTime": 0.2,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Mainstream Team",
+      "title": "Core Team",
+      "url": "https://github.com/mainstreamorganization",
+      "imageURL": "https://github.com/mainstreamorganization.png",
+      "key": "mainstream",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome to Mainstream Token",
+    "authors": [
+      "mainstream"
+    ],
+    "tags": [
+      "hello",
+      "mainstream"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Mainstream Token License Protocol Launch",
+    "permalink": "/news/mtl-launch"
+  },
+  "nextItem": {
+    "title": "Welcome to Mainstream Token",
+    "permalink": "/news/welcome-post"
+  }
+}
