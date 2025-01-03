@@ -148,27 +148,20 @@ const config: Config = {
               to: '/contact/community-guidelines',
             },
             {
-              type: 'dropdown',
-              label: 'Legal Information',
-              to: '/contact/legal',
-              items: [
-                {
-                  label: 'Legal Disclaimer',
-                  to: '/contact/legal/disclaimer',
-                },
-                {
-                  label: 'Terms of Use',
-                  to: '/contact/legal/terms',
-                },
-                {
-                  label: 'Privacy Policy',
-                  to: '/contact/legal/privacy',
-                },
-                {
-                  label: 'Cookie Policy',
-                  to: '/contact/legal/cookies',
-                }
-              ]
+              label: 'Legal Disclaimer',
+              to: '/contact/legal/disclaimer',
+            },
+            {
+              label: 'Terms of Use',
+              to: '/contact/legal/terms',
+            },
+            {
+              label: 'Privacy Policy',
+              to: '/contact/legal/privacy',
+            },
+            {
+              label: 'Cookie Policy',
+              to: '/contact/legal/cookies',
             }
           ]
         },
