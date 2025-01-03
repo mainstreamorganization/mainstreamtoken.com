@@ -158,6 +158,10 @@ const config: Config = {
             {
               label: 'Cookie Policy',
               to: '/contact/legal/cookies',
+            },
+            {
+              label: 'Community Guidelines',
+              to: '/contact/community-guidelines',
             }
           ]
         },
