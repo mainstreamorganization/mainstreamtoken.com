@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="gradientPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9561e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#794acf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Central group -->
+  <g transform="translate(30,30)">
+    <!-- Central circle -->
+    <circle cx="0" cy="0" r="6" fill="url(#gradientPurple)">
+      <animate
+        attributeName="r"
+        values="6;6.5;6"
+        dur="2s"
+        repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Orbiting circles -->
+    <g>
+      <!-- Circle 1 -->
+      <circle cx="0" cy="-14" r="4" fill="#60a5fa">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0 0 0"
+          to="360 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+        <animate
+          attributeName="r"
+          values="4;4.5;4"
+          dur="2s"
+          repeatCount="indefinite" />
+      </circle>
+      
+      <!-- Circle 2 -->
+      <circle cx="12" cy="7" r="4" fill="#34d399">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="120 0 0"
+          to="480 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+        <animate
+          attributeName="r"
+          values="4;4.5;4"
+          dur="2s"
+          begin="0.7s"
+          repeatCount="indefinite" />
+      </circle>
+      
+      <!-- Circle 3 -->
+      <circle cx="-12" cy="7" r="4" fill="#f472b6">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="240 0 0"
+          to="600 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+        <animate
+          attributeName="r"
+          values="4;4.5;4"
+          dur="2s"
+          begin="1.4s"
+          repeatCount="indefinite" />
+      </circle>
+    </g>
+    
+    <!-- Connecting lines -->
+    <g stroke-width="0.5" stroke-dasharray="1,1">
+      <line x1="0" y1="0" x2="0" y2="-14" stroke="#60a5fa">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0 0 0"
+          to="360 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="0" x2="12" y2="7" stroke="#34d399">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="120 0 0"
+          to="480 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+      </line>
+      <line x1="0" y1="0" x2="-12" y2="7" stroke="#f472b6">
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="240 0 0"
+          to="600 0 0"
+          dur="10s"
+          repeatCount="indefinite" />
+      </line>
+    </g>
+  </g>
+</svg>
