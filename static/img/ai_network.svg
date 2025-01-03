@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <defs>
+        <!-- Gradient definitions -->
+        <linearGradient id="nodeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ff1f1f;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+        </linearGradient>
+        <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" style="stop-color:#ff0000;stop-opacity:0.8" />
+            <stop offset="100%" style="stop-color:#000000;stop-opacity:0.4" />
+        </radialGradient>
+        <!-- Golden signal gradient -->
+        <linearGradient id="signalGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#FFA500;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+        </linearGradient>
+        <!-- Glow filters -->
+        <filter id="miniGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="0.5" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <filter id="goldenGlow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="1" result="goldenBlur"/>
+            <feFlood flood-color="#FFD700" result="glowColor"/>
+            <feComposite in="glowColor" in2="goldenBlur" operator="in" result="softGlow"/>
+            <feMerge>
+                <feMergeNode in="softGlow"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Connection lines - Direct neural pathways -->
+    <g stroke-width="0.3" opacity="0.4">
+        <!-- Main neural connections -->
+        <path d="M15 20 Q30 15 45 25" stroke="url(#signalGradient)" fill="none" filter="url(#goldenGlow)">
+            <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M15 30 Q30 25 45 35" stroke="url(#signalGradient)" fill="none" filter="url(#goldenGlow)">
+            <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="2.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M15 40 Q30 35 45 45" stroke="url(#signalGradient)" fill="none" filter="url(#goldenGlow)">
+            <animate attributeName="stroke-opacity" values="0.2;0.8;0.2" dur="1.8s" repeatCount="indefinite"/>
+        </path>
+        <!-- Cross-connections for complex processing -->
+        <path d="M15 20 Q30 30 45 45" stroke="url(#signalGradient)" fill="none" opacity="0.2">
+            <animate attributeName="stroke-opacity" values="0.1;0.3;0.1" dur="2.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M15 40 Q30 30 45 25" stroke="url(#signalGradient)" fill="none" opacity="0.2">
+            <animate attributeName="stroke-opacity" values="0.1;0.3;0.1" dur="2.7s" repeatCount="indefinite"/>
+        </path>
+    </g>
+
+    <!-- Layer 1 Nodes (Input) -->
+    <g class="layer1">
+        <circle cx="15" cy="20" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="15" cy="30" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="15" cy="40" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="2s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+
+    <!-- Layer 2 Nodes (Output) -->
+    <g class="layer2">
+        <circle cx="45" cy="25" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="1.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="45" cy="35" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="1.7s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="45" cy="45" r="2" fill="url(#nodeGradient)" filter="url(#miniGlow)">
+            <animate attributeName="r" values="1.5;2;1.5" dur="1.4s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+
+    <!-- Center Processing Node -->
+    <circle cx="30" cy="30" r="3" fill="url(#centerGlow)" filter="url(#miniGlow)">
+        <animate attributeName="r" values="2.5;3;2.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Signal Particles -->
+    <g>
+        <circle class="data-particle" r="0.5" fill="#FFD700" filter="url(#goldenGlow)">
+            <animateMotion path="M15 20 Q30 15 45 25" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <circle class="data-particle" r="0.5" fill="#FFD700" filter="url(#goldenGlow)">
+            <animateMotion path="M15 30 Q30 25 45 35" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle class="data-particle" r="0.5" fill="#FFD700" filter="url(#goldenGlow)">
+            <animateMotion path="M15 40 Q30 35 45 45" dur="1.8s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>

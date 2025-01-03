@@ -1,0 +1,75 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #b8860b; /* Deeper Gold/Bronze */
+  --ifm-color-primary-dark: #916b09;
+  --ifm-color-primary-darker: #7e5e08;
+  --ifm-color-primary-darkest: #614806;
+  --ifm-color-primary-light: #c59a22;
+  --ifm-color-primary-lighter: #d2ad39;
+  --ifm-color-primary-lightest: #e0c152;
+  --ifm-color-secondary: #20c997; /* Vibrant Teal */
+  --ifm-color-secondary-dark: #19a37a;
+  --ifm-color-secondary-darker: #16926e;
+  --ifm-color-secondary-darkest: #107054;
+  --ifm-color-secondary-light: #26d6a4;
+  --ifm-color-secondary-lighter: #30dbae;
+  --ifm-color-secondary-lightest: #4de2bb;
+  --ifm-background-color: #ffffff; /* White background */
+  --ifm-background-surface-color: #f0f0f0;
+  --ifm-font-color-base: #000000; /* Black text */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-button-color: #000;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b8860b;
+  --ifm-color-primary-dark: #916b09;
+  --ifm-color-primary-darker: #7e5e08;
+  --ifm-color-primary-darkest: #614806;
+  --ifm-color-primary-light: #c59a22;
+  --ifm-color-primary-lighter: #d2ad39;
+  --ifm-color-primary-lightest: #e0c152;
+  --ifm-color-secondary: #20c997;
+  --ifm-color-secondary-dark: #19a37a;
+  --ifm-color-secondary-darker: #16926e;
+  --ifm-color-secondary-darkest: #107054;
+  --ifm-color-secondary-light: #26d6a4;
+  --ifm-color-secondary-lighter: #30dbae;
+  --ifm-color-secondary-lightest: #4de2bb;
+  --ifm-background-color: #121212; /* Dark background */
+  --ifm-background-surface-color: #1e1e1e;
+  --ifm-font-color-base: #ffffff; /* White text */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+.button {
+    color: var(--ifm-button-color);
+}
+
+a {
+    color: var(--ifm-font-color-base);
+}
+
+.footer a {
+    color: var(--ifm-font-color-base);
+}
+
+.markdown pre code {
+    color: var(--ifm-font-color-base);
+}
+
+.licenseString code, .licenseString pre code {
+    color: var(--ifm-font-color-base) !important;
+}
+
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}

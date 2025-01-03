@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <!-- Gradient for shield -->
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b8860b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#916b09;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <!-- Gradient for transparency effect -->
+    <linearGradient id="transparentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.1" />
+    </linearGradient>
+
+    <!-- Data flow animation -->
+    <pattern id="dataPattern" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 4 L8 4" stroke="#ffffff" stroke-width="2" stroke-dasharray="2,6">
+        <animate attributeName="stroke-dashoffset"
+          from="8"
+          to="0"
+          dur="1s"
+          repeatCount="indefinite" />
+      </path>
+    </pattern>
+  </defs>
+
+  <!-- Main shield shape -->
+  <path d="M30 8 L48 16 L48 32 C48 42 40 48 30 52 C20 48 12 42 12 32 L12 16 Z" 
+        fill="url(#shieldGradient)">
+    <animate attributeName="opacity"
+      values="0.9;1;0.9"
+      dur="2s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Transparent layers -->
+  <path d="M30 8 L48 16 L48 32 C48 42 40 48 30 52 C20 48 12 42 12 32 L12 16 Z" 
+        fill="url(#transparentGradient)"
+        opacity="0.3">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 30 30"
+      to="360 30 30"
+      dur="10s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Data flow lines -->
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.6">
+    <!-- Vertical data flows -->
+    <line x1="24" y1="20" x2="24" y2="40" stroke-dasharray="2,2">
+      <animate attributeName="stroke-dashoffset"
+        values="4;0"
+        dur="1s"
+        repeatCount="indefinite" />
+    </line>
+    <line x1="36" y1="20" x2="36" y2="40" stroke-dasharray="2,2">
+      <animate attributeName="stroke-dashoffset"
+        values="4;0"
+        dur="1s"
+        begin="0.5s"
+        repeatCount="indefinite" />
+    </line>
+
+    <!-- Horizontal data flows -->
+    <line x1="20" y1="28" x2="40" y2="28" stroke-dasharray="2,2">
+      <animate attributeName="stroke-dashoffset"
+        values="4;0"
+        dur="1s"
+        begin="0.25s"
+        repeatCount="indefinite" />
+    </line>
+    <line x1="20" y1="32" x2="40" y2="32" stroke-dasharray="2,2">
+      <animate attributeName="stroke-dashoffset"
+        values="4;0"
+        dur="1s"
+        begin="0.75s"
+        repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- Central lock symbol -->
+  <g transform="translate(30,30)" fill="#ffffff">
+    <rect x="-4" y="-1" width="8" height="7" rx="1" />
+    <path d="M-3 -1 L-3 -4 C-3 -6 3 -6 3 -4 L3 -1">
+      <animate attributeName="d"
+        values="M-3 -1 L-3 -4 C-3 -6 3 -6 3 -4 L3 -1;M-3 -1 L-3 -3 C-3 -5 3 -5 3 -3 L3 -1;M-3 -1 L-3 -4 C-3 -6 3 -6 3 -4 L3 -1"
+        dur="2s"
+        repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>
