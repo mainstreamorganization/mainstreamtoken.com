@@ -177,7 +177,7 @@ function HomepageHeader() {
                     <div className={styles.videoContainer}>
                         <iframe
                             className={styles.heroVideo}
-                            src="https://www.youtube.com/embed/KF2wXUxxIhQ?autoplay=1&mute=1&loop=1&playlist=KF2wXUxxIhQ"
+                            src="https://www.youtube.com/embed/KF2wXUxxIhQ?autoplay=1&mute=1&loop=1&playlist=KF2wXUxxIhQ&rel=0&modestbranding=1"
                             title="Mainstream Token Video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
