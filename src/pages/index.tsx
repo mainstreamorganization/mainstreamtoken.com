@@ -198,13 +198,17 @@ function WhatIsMainstreamToken() {
             <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                     <img 
-                        src="/static/img/mainstreamtoken.webp" 
+                        src="/img/mainstreamtoken.webp" 
                         alt="Mainstream Token" 
                         style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
                     />
                 </div>
                 <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
+		CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+                </Heading>
+                <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
                     What is Mainstream Token?
+		   
                 </Heading>
                 <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)', textAlign: 'center' }}>
                     Mainstream Token ($MAIN) is an experimental digital asset on the Solana blockchain, designed to provide a
