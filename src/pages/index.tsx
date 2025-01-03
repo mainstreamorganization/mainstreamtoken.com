@@ -204,8 +204,6 @@ function WhatIsMainstreamToken() {
                     />
                 </div>
                 <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
-		CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
-		<p>
                     What is Mainstream Token?
                 </Heading>
                 <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)', textAlign: 'center' }}>
