@@ -198,7 +198,7 @@ function WhatIsMainstreamToken() {
             <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                     <img 
-                        src="/img/mainstreamtoken.webp" 
+                        src="/mainstreamtoken.com/img/mainstreamtoken.webp" 
                         alt="Mainstream Token" 
                         style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
                     />
