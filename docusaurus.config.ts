@@ -20,7 +20,7 @@ const config: Config = {
   organizationName: 'mainstreamorganization', // Usually your GitHub org/user name.
   projectName: 'mainstreamtoken', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -190,15 +190,15 @@ const config: Config = {
               to: '/docs/tokenomics/distribution',
             },
              {
-              label: 'License v1.0',
-              to: '/docs/versions/v1/license',
+              label: 'License v0.1',
+              to: '/docs/versions/v0/license',
             },
              {
               label: 'Tutorial',
               to: '/docs/tutorial/encoder-decoder',
             },
             {
-              label: 'How To Buy MT Token',
+              label: 'How To Buy $MAIN',
               to: '/docs/tutorial/buy-mt-tokens',
             },
             {
