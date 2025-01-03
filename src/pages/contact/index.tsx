@@ -58,3 +58,20 @@ function Contact() {
 }
 
 export default Contact;
+import React from 'react';
+import Layout from '@theme/Layout';
+import styles from './styles.module.css';
+
+export default function ContactPage() {
+  return (
+    <Layout title="Contact" description="Contact Mainstream Token">
+      <main className={styles.main}>
+        <h1>Contact Mainstream Token</h1>
+        <div className={styles.tabs}>
+          <a href="/contact/us" className={styles.tab}>Contact Us</a>
+          <a href="/contact/legal" className={styles.tab}>Legal & Privacy</a>
+        </div>
+      </main>
+    </Layout>
+  );
+}

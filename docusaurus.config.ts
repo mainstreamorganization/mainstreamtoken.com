@@ -134,10 +134,38 @@ const config: Config = {
             },
           ],
         },
-         {
-          to: '/contact',
+        {
+          type: 'dropdown',
           label: 'Contact',
           position: 'left',
+          items: [
+            {
+              label: 'Contact Us',
+              to: '/contact/us',
+            },
+            {
+              label: 'Legal & Privacy',
+              to: '/contact/legal',
+              items: [
+                {
+                  label: 'Legal Disclaimer',
+                  to: '/contact/legal/disclaimer',
+                },
+                {
+                  label: 'Terms of Use',
+                  to: '/contact/legal/terms',
+                },
+                {
+                  label: 'Privacy Policy',
+                  to: '/contact/legal/privacy',
+                },
+                {
+                  label: 'Cookie Policy',
+                  to: '/contact/legal/cookies',
+                }
+              ]
+            }
+          ]
         },
       ],
     },

@@ -1,0 +1,36 @@
+.main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.tab {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.tab:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .tabs {
+    flex-direction: column;
+  }
+  
+  .tab {
+    text-align: center;
+  }
+}
