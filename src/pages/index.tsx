@@ -154,26 +154,6 @@ function HomepageHeader() {
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <canvas id="neural" className={styles.headerCanvas} />
             <div className={`container ${styles.heroContainer} ${styles.heroContent}`}>
-                <div style={{textAlign: 'left', maxWidth: '90%', paddingRight: '1rem'}}>
-                    <Heading as="h1" className="hero__title" style={{ fontSize: '1.96rem', fontWeight: 'bold', color: 'var(--ifm-color-primary)',  }}>
-                        {siteConfig.title}
-                    </Heading>
-                    <p className="hero__subtitle" style={{ fontSize: '1.5rem', color: 'var(--ifm-font-color-base)' }}>
-                        {siteConfig.tagline}
-                    </p>
-                    <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)' }}>
-                        An experimental protocol for digital content licensing with token holdings.
-                        This system gives alternative options for content creators to define a parametric licensing framework*.
-                    </p>
-                    <div className={styles.buttons}>
-                        <Link
-                            className="button button--lg button--primary"
-                            to="https://t.me/mainstreamtoken"
-                        >
-                            Join the Community 🚀
-                        </Link>
-                    </div>
-                </div>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
                     <div className={styles.videoContainer}>
                         <a 
@@ -191,6 +171,26 @@ function HomepageHeader() {
                                 "The Cryptic Hodler's Guide to Mainstream Token"
                             </div>
                         </a>
+                    </div>
+                </div>
+                <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
+                    <Heading as="h1" className="hero__title" style={{ fontSize: '1.96rem', fontWeight: 'bold', color: 'var(--ifm-color-primary)',  }}>
+                        {siteConfig.title}
+                    </Heading>
+                    <p className="hero__subtitle" style={{ fontSize: '1.5rem', color: 'var(--ifm-font-color-base)' }}>
+                        {siteConfig.tagline}
+                    </p>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)' }}>
+                        An experimental protocol for digital content licensing with token holdings.
+                        This system gives alternative options for content creators to define a parametric licensing framework*.
+                    </p>
+                    <div className={styles.buttons}>
+                        <Link
+                            className="button button--lg button--primary"
+                            to="https://t.me/mainstreamtoken"
+                        >
+                            Join the Community 🚀
+                        </Link>
                     </div>
                 </div>
             </div>
