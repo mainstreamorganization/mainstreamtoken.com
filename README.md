@@ -1,9 +1,5 @@
 # mainstreamtoken.com
 
-
-![Mainstream Token](https://mainstreamtoken.com/static/img/mainstreamtoken.webp)
-
-Under construction. 
 CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
 
 https://pump.fun/coin/HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
