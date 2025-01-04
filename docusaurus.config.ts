@@ -263,7 +263,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserve.d CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3.</span>`,
+      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Resered. CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3.</span>`,
     },
     prism: {
       theme: prismThemes.github,
