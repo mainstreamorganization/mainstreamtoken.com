@@ -13,16 +13,42 @@
 
 .modal {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 8px;
   max-width: 600px;
   width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
 }
 
 .content {
   margin: 1rem 0;
   line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .modal {
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 95%;
+  }
+  
+  .content {
+    font-size: 0.9rem;
+  }
+  
+  .buttons {
+    justify-content: center;
+  }
+  
+  .agreeButton,
+  .disagreeButton {
+    width: 100%;
+    margin: 0.25rem 0;
+  }
 }
 
 .content ul {
@@ -45,6 +71,7 @@
   justify-content: flex-end;
   gap: 1rem;
   margin-top: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .agreeButton {
