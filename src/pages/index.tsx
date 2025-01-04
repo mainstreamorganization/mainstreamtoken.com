@@ -213,8 +213,17 @@ function WhatIsMainstreamToken() {
 		CA : <span 
           style={{cursor: 'pointer', textDecoration: 'underline'}}
           onClick={() => {
-            navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3');
-            alert('Contract address copied to clipboard!');
+            if (navigator?.clipboard) {
+              navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3')
+                .then(() => {
+                  alert('Contract address copied to clipboard!');
+                })
+                .catch(() => {
+                  alert('Failed to copy to clipboard. Please copy manually.');
+                });
+            } else {
+              alert('Clipboard access not available. Please copy manually.');
+            }
           }}
         >
           HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
