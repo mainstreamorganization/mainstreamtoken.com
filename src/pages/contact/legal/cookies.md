@@ -93,7 +93,7 @@ Data may be processed on servers outside the European Union. By using our site, 
 | Purpose | Authentication & session management |
 | Duration | 24 hours from login |
 | Security Features | HttpOnly flag, path restricted to "/", encrypted JWT token |
-| Data Stored | Encrypted JSON Web Token (JWT) containing: <br>- User ID (encrypted) <br>- Expiration timestamp <br>- Digital signature |
+| Data Stored | Encrypted JSON Web Token (JWT) containing:<br />- User ID (encrypted)<br />- Expiration timestamp<br />- Digital signature |
 
 **Disclaimer:** This list may be updated as the website evolves.
 
