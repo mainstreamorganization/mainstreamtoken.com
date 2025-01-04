@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import LayoutProviders from '@theme/LayoutProviders';
+import Layout from '@theme/Layout';
 import LegalNotice from '@site/src/components/LegalNotice';
 
-export default function Layout(props) {
+export default function CustomLayout(props) {
   const [showDisagreeMessage, setShowDisagreeMessage] = useState(false);
 
   if (showDisagreeMessage) {
@@ -29,9 +29,9 @@ export default function Layout(props) {
   }
 
   return (
-    <LayoutProviders>
+    <Layout {...props}>
       {props.children}
       <LegalNotice onDisagree={() => setShowDisagreeMessage(true)} />
-    </LayoutProviders>
+    </Layout>
   );
 }
