@@ -23,11 +23,9 @@ function LegalNotice() {
   const history = useHistory();
 
   useEffect(() => {
-    // Check if user has already agreed
     const hasAgreed = getCookie('legalAgreed') === 'true';
-    if (!hasAgreed) {
-      setVisible(true);
-    }
+    const isLegalPage = window.location.pathname.includes('/legal/');
+    setVisible(!hasAgreed && !isLegalPage);
   }, []);
 
   const handleAgree = () => {
