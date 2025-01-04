@@ -156,21 +156,11 @@ function HomepageHeader() {
             <div className={`container ${styles.heroContainer} ${styles.heroContent}`}>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
                     <div className={styles.videoContainer}>
-                        <a 
-                            href="https://www.youtube.com/watch?v=KF2wXUxxIhQ" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            style={{ textDecoration: 'none', color: 'inherit' }}
-                        >
-                            <img
-                                src="/img/youtubeicon.png"
-                                alt="Watch on YouTube"
-                                style={{ width: '100px', height: 'auto', cursor: 'pointer' }}
-                            />
-                            <div className={styles.videoTitle}>
-                                "The Cryptic Hodler's Guide to Mainstream Token"
-                            </div>
-                        </a>
+                        <img
+                            src="/img/mnstrmtoken.gif"
+                            alt="Mainstream Token Animation"
+                            style={{ width: '100%', maxWidth: '400px', height: 'auto' }}
+                        />
                     </div>
                 </div>
                 <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
