@@ -3,11 +3,13 @@ title: Legal Documentation and Disclaimer
 description: Legal terms for Mainstream Token ($MAIN) and MTL Protocol
 ---
 
-# LEGAL DOCUMENTATION AND DISCLAIMER  
-MAINSTREAM TOKEN ($MAIN) AND MTL PROTOCOL  
+# LEGAL DOCUMENTATION AND DISCLAIMER
+MAINSTREAM TOKEN ($MAIN) AND MTL PROTOCOL
 Last Updated: January 3, 2025
 
 PLEASE READ THIS ENTIRE LEGAL DOCUMENTATION ("DOCUMENTATION") CAREFULLY BEFORE ACCESSING OR USING MAINSTREAM TOKEN ("$MAIN"), THE MTL PROTOCOL ("PROTOCOL"), OR THE MAINSTREAMTOKEN.COM WEBSITE ("WEBSITE"). BY ACCESSING OR USING THE WEBSITE, HOLDING OR INTERACTING WITH $MAIN, OR ENGAGING WITH THE PROTOCOL, YOU ("USER" OR "YOU") HEREBY EXPRESSLY ACKNOWLEDGE AND AGREE TO BE LEGALLY BOUND BY ALL TERMS AND CONDITIONS SET FORTH IN THIS DOCUMENTATION, TO THE FULLEST EXTENT PERMITTED BY LAW. IF YOU DO NOT AGREE, DO NOT USE OR CONTINUE TO USE THE WEBSITE, $MAIN, OR THE PROTOCOL.
+
+THIS LEGAL DOCUMENTATION AND DISCLAIMER GOVERNS YOUR USE OF THE MAINSTREAM TOKEN WEBSITE, $MAIN TOKEN AND THE MTL PROTOCOL. THIS DOCUMENT IS INCORPORATED BY REFERENCE WITHIN THE MAINSTREAM TOKEN TERMS OF USE, AND BOTH DOCUMENTS ARE LEGALLY BINDING ON ALL USERS.  IN THE EVENT OF ANY CONFLICTING PROVISIONS, THE LEGAL DOCUMENTATION AND DISCLAIMER SHALL GOVERN OVER THE TERMS OF USE.
 
 ## 1. BINDING AGREEMENT
 
@@ -85,7 +87,10 @@ To the fullest extent permitted by applicable law, in no event shall the Protoco
 - Other losses of any kind, whether based in contract, tort, or any other legal theory
 
 ### 6.2 Aggregate Liability Cap
-The aggregate liability of the Protocol and its affiliates, if any is found to exist, shall be limited exclusively to the number of $MAIN tokens You originally acquired, if any, and that no remedy of any kind will be provided, and specifically that no monetary payment, alternative payment, or compensation shall be provided or available.
+The aggregate liability of the Protocol and its affiliates, *if any is found to exist*, shall be limited exclusively to the number of $MAIN tokens You originally acquired, if any, and that no remedy of any kind will be provided, and specifically that no monetary payment, alternative payment, or compensation shall be provided or available.
+
+### 6.3 Consumer Law Exception
+Certain jurisdictions do not allow the exclusion or limitation of certain damages. In such jurisdictions, our liability shall be limited to the fullest extent permitted by law, and nothing herein shall restrict or exclude any liability that cannot be lawfully excluded.
 
 ## 7. NO REMEDIES; NO GUARANTEES
 
@@ -104,7 +109,7 @@ The Protocol is decentralized and does not consent to any particular jurisdictio
 At the sole discretion of the Protocol or its representatives, a voluntary, non-binding arbitration process may be offered to resolve disputes. Such arbitration shall not constitute a waiver of this Documentation's disclaimers, liability limitations, or jurisdictional independence.
 
 ### 8.3 User Waivers
-You waive, to the fullest extent permissible by law, any right to bring legal claims in a court of law under any class action, consolidated action, or representative action procedures. If a court of competent jurisdiction deems this waiver unenforceable, the entirety of this dispute resolution clause may be severed from this Documentation at the Protocol's discretion.
+You waive, to the fullest extent permissible by law, any right to participate in class, collective, consolidated, or representative actions. If a court of competent jurisdiction deems this waiver unenforceable, the entirety of this dispute resolution clause may be severed from this Documentation at the Protocol's discretion.
 
 ## 9. SEVERABILITY
 If any provision of this Documentation is held invalid or unenforceable, the remaining provisions shall continue in full force and effect. The invalid provision shall be modified to achieve the initial intent of the parties as closely as possible while remaining lawful and enforceable.
@@ -118,9 +123,15 @@ This Documentation may be modified, updated, or replaced at any time without not
 It is Your responsibility to periodically review this Documentation for changes. The current version is accessible at:
 https://mainstreamtoken.com/legal
 
-## 11. CONTACT INFORMATION
-Website: https://mainstreamtoken.com/  
-GitHub Discussions: https://github.com/mainstreamorganization/mainstreamtoken/discussions  
+## 11. GOVERNING LAW (Optional)
+For the limited purpose of interpreting these Terms of Use and the Legal Documentation, You agree that the laws of [Select a neutral jurisdiction] shall govern. Notwithstanding the foregoing, the Protocol does not consent to the jurisdiction of any court, and nothing herein shall be construed as a waiver of the Protocol's decentralized nature or jurisdictional independence.
+
+## 12. REGULATORY COMPLIANCE
+The Protocol may modify, suspend, or discontinue any aspect of $MAIN or the Protocol without notice if we determine that such action is necessary to comply with applicable laws or regulations.
+
+## 13. CONTACT INFORMATION
+Website: https://mainstreamtoken.com/
+GitHub Discussions: https://github.com/mainstreamorganization/mainstreamtoken/discussions
 Last Updated: January 3, 2025
 
 YOU HEREBY ACKNOWLEDGE THAT YOU HAVE READ THIS DOCUMENTATION, UNDERSTAND ITS CONTENT, AND AGREE TO BE BOUND BY ITS TERMS. YOU FURTHER AGREE THAT THIS DOCUMENTATION CONSTITUTES THE COMPLETE AND EXCLUSIVE STATEMENT OF THE AGREEMENT BETWEEN THE PARTIES, AND SUPERSEDES ALL PRIOR PROPOSALS, UNDERSTANDINGS, OR REPRESENTATIONS, WHETHER ORAL OR WRITTEN.
