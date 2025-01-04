@@ -192,14 +192,7 @@ function WhatIsMainstreamToken() {
     return (
         <section className={`${styles.section} ${styles.withBorder}`}>
             <div className="container">
-                <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-                    <img 
-                        src="/img/mainstreamtoken.webp" 
-                        alt="Mainstream Token" 
-                        style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
-                    />
-                </div>
-                <Heading as="h2" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
+                <Heading as="h3" style={{ color: 'var(--ifm-color-primary)', textAlign: 'center', marginBottom: '2rem' }}>
 		CA : <span 
           style={{cursor: 'pointer', textDecoration: 'underline'}}
           onClick={() => {
