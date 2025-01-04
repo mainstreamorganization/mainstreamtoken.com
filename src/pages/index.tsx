@@ -155,11 +155,11 @@ function HomepageHeader() {
             <canvas id="neural" className={styles.headerCanvas} />
             <div className={`container ${styles.heroContainer} ${styles.heroContent}`}>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
-                    <div className={styles.videoContainer}>
+                    <div className={styles.videoContainer} style={{ margin: '0.5rem 0' }}>
                         <img
                             src="/img/mnstrmtoken.gif"
                             alt="Mainstream Token Animation"
-                            style={{ width: '100%', maxWidth: '400px', height: 'auto' }}
+                            style={{ width: '280px', height: '280px' }}
                         />
                     </div>
                 </div>
