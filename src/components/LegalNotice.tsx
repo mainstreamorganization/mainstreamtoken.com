@@ -1,6 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import styles from './LegalNotice.module.css';
 
+// Cookie utility functions
+const getCookie = (name: string): string | undefined => {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop()?.split(';').shift();
+};
+
+const setCookie = (name: string, value: string, days = 365) => {
+  const date = new Date();
+  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
+};
+
 interface LegalNoticeProps {
   onDisagree: () => void;
 }
@@ -11,14 +24,14 @@ function LegalNotice({ onDisagree }: LegalNoticeProps) {
 
   useEffect(() => {
     // Check if user has already agreed
-    const hasAgreed = localStorage.getItem('legalAgreed') === 'true';
+    const hasAgreed = getCookie('legalAgreed') === 'true';
     if (!hasAgreed) {
       setVisible(true);
     }
   }, []);
 
   const handleAgree = () => {
-    localStorage.setItem('legalAgreed', 'true');
+    setCookie('legalAgreed', 'true');
     setAgreed(true);
     setVisible(false);
   };
