@@ -5,11 +5,12 @@ sidebar_label: Cookie Policy
 
 # MAINSTREAM TOKEN - COOKIE POLICY
 
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
+## Legal Documents
 
-<DocCardList />
-```
+- [Legal Disclaimer](/contact/legal/disclaimer)
+- [Terms of Use](/contact/legal/terms) 
+- [Privacy Policy](/contact/legal/privacy)
+- [Cookie Policy](/contact/legal/cookies)
 
 ## Table of Contents
 - [1. Introduction](#1-introduction)
