@@ -162,6 +162,11 @@ function HomepageHeader() {
                             style={{ width: '280px', height: '280px', display: 'block' }}
                         />
                     </div>
+                    <div style={{ textAlign: 'center', marginTop: '10px', fontSize: '0.9rem', color: 'var(--ifm-font-color-base)' }}>
+                        mtl:0<br/>
+                        MTLv0.1/100<br/>
+                        sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+                    </div>
                 </div>
                 <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
                     <Heading as="h1" className="hero__title" style={{ fontSize: '1.96rem', fontWeight: 'bold', color: 'var(--ifm-color-primary)',  }}>
