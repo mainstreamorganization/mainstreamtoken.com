@@ -1,37 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '@theme/Layout';
 import LegalNotice from '@site/src/components/LegalNotice';
+import {useLocation} from '@docusaurus/router';
 
 export default function CustomLayout(props) {
-  const [showDisagreeMessage, setShowDisagreeMessage] = useState(false);
-
-  if (showDisagreeMessage) {
-    return (
-      <div style={{
-        padding: '2rem',
-        maxWidth: '800px',
-        margin: '0 auto',
-        textAlign: 'center'
-      }}>
-        <h2>Access Restricted</h2>
-        <p>
-          Access to this website requires agreement to our terms of service and disclaimer. 
-          You have chosen not to agree, and therefore access is not available at this time.
-        </p>
-        <p>
-          If you wish to discuss this further, please contact us at{' '}
-          <a href="https://github.com/mainstreamorganization/mainstreamtoken/discussions">
-            GitHub Discussions
-          </a>.
-        </p>
-      </div>
-    );
-  }
-
+  const location = useLocation();
+  const isLegalPage = location.pathname.includes('/legal/');
+  
   return (
     <Layout {...props}>
       {props.children}
-      <LegalNotice onDisagree={() => setShowDisagreeMessage(true)} />
+      {!isLegalPage && <LegalNotice />}
     </Layout>
   );
 }

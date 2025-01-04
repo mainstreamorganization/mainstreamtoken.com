@@ -1,27 +1,26 @@
 import React, { useState, useEffect } from 'react';
+import { useHistory } from '@docusaurus/router';
 import styles from './LegalNotice.module.css';
 
 // Cookie utility functions
 const getCookie = (name: string): string | undefined => {
+  if (typeof document === 'undefined') return undefined;
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);
   if (parts.length === 2) return parts.pop()?.split(';').shift();
 };
 
 const setCookie = (name: string, value: string, days = 365) => {
+  if (typeof document === 'undefined') return;
   const date = new Date();
   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
   const domain = window.location.hostname;
   document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/;domain=${domain}`;
 };
 
-interface LegalNoticeProps {
-  onDisagree: () => void;
-}
-
-function LegalNotice({ onDisagree }: LegalNoticeProps) {
+function LegalNotice() {
   const [visible, setVisible] = useState(false);
-  const [agreed, setAgreed] = useState(false);
+  const history = useHistory();
 
   useEffect(() => {
     // Check if user has already agreed
@@ -33,13 +32,11 @@ function LegalNotice({ onDisagree }: LegalNoticeProps) {
 
   const handleAgree = () => {
     setCookie('legalAgreed', 'true');
-    setAgreed(true);
     setVisible(false);
   };
 
   const handleDisagree = () => {
-    setVisible(false);
-    onDisagree();
+    history.push('/contact/legal/disclaimer');
   };
 
   if (!visible) return null;
