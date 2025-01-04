@@ -1,9 +1,37 @@
 ---
 title: Privacy Policy
 description: Privacy policy for Mainstream Token
+sidebar_position: 4
+sidebar_label: Privacy Policy
 ---
 
 # MAINSTREAM TOKEN - PRIVACY POLICY
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+## Table of Contents
+- [1. Introduction](#1-introduction)
+- [2. Definitions](#2-definitions)
+- [3. Information We Collect](#3-information-we-collect)
+- [4. How We Use Your Information](#4-how-we-use-your-information)
+- [5. Legal Basis for Processing](#5-legal-basis-for-processing)
+- [6. Data Retention](#6-data-retention)
+- [7. Data Security](#7-data-security)
+- [8. Sharing of Your Information](#8-sharing-of-your-information)
+- [9. Your Rights](#9-your-rights)
+- [10. International Data Transfers](#10-international-data-transfers)
+- [11. Cookies and Tracking Technologies](#11-cookies-and-tracking-technologies)
+- [12. Third Party Links](#12-third-party-links)
+- [13. Consent to Data Collection](#13-consent-to-data-collection)
+- [14. Children's Privacy](#14-childrens-privacy)
+- [15. Automated Decision Making](#15-automated-decision-making)
+- [16. Changes to This Policy](#16-changes-to-this-policy)
+- [17. Legal Disclaimer](#17-legal-disclaimer)
+- [18. Contact Us](#18-contact-us)
 **Last Updated: January 3, 2025**
 
 **1. INTRODUCTION**

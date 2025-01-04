@@ -1,4 +1,33 @@
+---
+sidebar_position: 5
+sidebar_label: Cookie Policy
+---
+
 # MAINSTREAM TOKEN - COOKIE POLICY
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
+
+## Table of Contents
+- [1. Introduction](#1-introduction)
+- [2. What Are Cookies?](#2-what-are-cookies)
+- [3. Types of Cookies We Use](#3-types-of-cookies-we-use)
+- [4. Purposes of Cookies](#4-purposes-of-cookies)
+- [5. How to Manage Cookies](#5-how-to-manage-cookies)
+- [6. Consent to Cookies](#6-consent-to-cookies)
+- [7. Your Rights Under GDPR](#7-your-rights-under-gdpr)
+- [8. Data Processing](#8-data-processing)
+- [9. Cookie List](#9-cookie-list)
+- [10. Analytics & Third-Party Integrations](#10-analytics--third-party-integrations)
+- [11. Do Not Track Signals](#11-do-not-track-signals)
+- [12. Consistency with Other Policies & Disclaimers](#12-consistency-with-other-policies--disclaimers)
+- [13. Cookie Enforcement](#13-cookie-enforcement)
+- [14. Privacy Policy](#14-privacy-policy)
+- [15. Contact Us](#15-contact-us)
+- [16. Disclaimer](#16-disclaimer)
 **Last Updated: January 3, 2025**
 
 **1. INTRODUCTION**
