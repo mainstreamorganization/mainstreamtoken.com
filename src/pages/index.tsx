@@ -229,7 +229,7 @@ function WhatIsMainstreamToken() {
 		   
                 </Heading>
                 <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)', textAlign: 'center' }}>
-                    Mainstream Token ($MAIN) is an experimental digital asset on the Solana blockchain, designed to provide a
+                    Mainstream Token ($MAIN), created with precise timing on Jan 03, 2025 12:34:56 UTC on Bitcoin's 15th birthday, is an experimental digital asset on the Solana blockchain, designed to provide a
                     unique blend of AI guided community-focused development.
                     It utilizes the experimental Mainstream Token License (MTL) protocol to enable decentralized digital
                     rights management. 
