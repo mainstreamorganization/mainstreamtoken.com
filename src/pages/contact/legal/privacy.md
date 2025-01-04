@@ -21,9 +21,9 @@ If you are located in a jurisdiction that imposes stricter requirements (e.g., t
 *   **$MAIN:** Refers to the Mainstream Token, a decentralized cryptocurrency token.
 *   **MTL Protocol:** Refers to the Mainstream Token License protocol, a decentralized system for managing digital rights.
 *   **User/You/Your**: Refers to any individual or entity accessing or using the Website, $MAIN, or the MTL Protocol.
-*   **Cookie Policy:** Refers to the cookie policy, found at [Cookie Policy Link].
-*   **Terms of Use**: Refers to the Terms of Use document, found at [Terms of Use Link].
-*   **Legal Disclaimer**: Refers to the Legal Disclaimer, found at [Legal Disclaimer Link].
+*   **Cookie Policy:** Refers to the cookie policy, found at [/contact/legal/cookies](/contact/legal/cookies).
+*   **Terms of Use**: Refers to the Terms of Use document, found at [/contact/legal/terms](/contact/legal/terms).
+*   **Legal Disclaimer**: Refers to the Legal Disclaimer, found at [/contact/legal/disclaimer](/contact/legal/disclaimer).
 
 **3. INFORMATION WE COLLECT**
 
