@@ -264,6 +264,10 @@ const config: Config = {
               label: 'YouTube',
               href: 'https://www.youtube.com/@mainstreamtoken',
             },
+            {
+              label: 'Aidamis',
+              href: 'https://aidamis.com',
+            },
           ],
         },
         {
