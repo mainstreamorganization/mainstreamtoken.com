@@ -175,7 +175,7 @@ const config: Config = {
             {
               label: 'Experimental digital rights management through blockchain technology.',
               to: '#',
-              style: { whiteSpace: 'normal', maxWidth: '200px' }
+              style: { whiteSpace: 'normal', maxWidth: '360px' }
             },
           ],
         },
