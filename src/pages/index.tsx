@@ -356,7 +356,6 @@ export default function Home(): JSX.Element {
                 <Tokenomics />
             </main>
             <FooterWarning />
-            <LegalNotice onDisagree={() => setShowDisagreeMessage(true)} />
         </Layout>
     );
 }
