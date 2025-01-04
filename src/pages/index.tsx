@@ -222,7 +222,7 @@ function WhatIsMainstreamToken() {
                   alert('Failed to copy to clipboard. Please copy manually.');
                 });
             } else {
-              alert('Clipboard access not available. Please copy manually.');
+              alert('Clipboard access not available. Please copy this address manually: HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3');
             }
           }}
         >
