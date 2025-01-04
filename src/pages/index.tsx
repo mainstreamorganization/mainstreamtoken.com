@@ -154,7 +154,7 @@ function HomepageHeader() {
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <canvas id="neural" className={styles.headerCanvas} />
             <div className={`container ${styles.heroContainer} ${styles.heroContent}`}>
-                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', margin: '-1rem 0'}}>
+                <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
                     <div className={styles.videoContainer} style={{ margin: '0' }}>
                         <img
                             src="/img/mnstrmtoken.gif"
