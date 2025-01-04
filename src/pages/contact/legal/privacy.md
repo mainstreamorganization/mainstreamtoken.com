@@ -33,6 +33,7 @@ sidebar_label: Privacy Policy
 - [16. Changes to This Policy](#16-changes-to-this-policy)
 - [17. Legal Disclaimer](#17-legal-disclaimer)
 - [18. Contact Us](#18-contact-us)
+
 **Last Updated: January 3, 2025**
 
 **1. INTRODUCTION**

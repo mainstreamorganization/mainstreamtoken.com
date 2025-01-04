@@ -10,6 +10,9 @@ const config: Config = {
   favicon: 'img/mtlogo.png',
 
   // Set the production url of your site here
+//  url: 'https://mainstreamtoken.com', // Replace with your GitHub username
+//  baseUrl: '/', // Replace with your repository name
+
   url: 'https://mainstreamorganization.github.io', // Replace with your GitHub username
   baseUrl: '/mainstreamtoken.com/', // Replace with your repository name
 
