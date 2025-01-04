@@ -183,7 +183,7 @@ function HomepageHeader() {
                             style={{ textDecoration: 'none', color: 'inherit' }}
                         >
                             <img
-                                src="/img/youtubeicon.png"
+                                src="/mainstreamtoken.com/img/youtubeicon.png"
                                 alt="Watch on YouTube"
                                 style={{ width: '100px', height: 'auto', cursor: 'pointer' }}
                             />
