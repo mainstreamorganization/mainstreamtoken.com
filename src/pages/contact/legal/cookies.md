@@ -1,137 +1,110 @@
----
-title: Cookie Policy
-description: Cookie usage policy for Mainstream Token
----
+# MAINSTREAM TOKEN - COOKIE POLICY
+**Last Updated: January 3, 2025**
 
-# Mainstream Token - Cookie Policy
+**1. INTRODUCTION**
 
-**Last Updated:** January 3, 2025
+This Cookie Policy explains how Mainstream Token ("we," "us," or "our") uses cookies and similar tracking technologies on the mainstreamtoken.com website (the "Website"). This policy should be read in conjunction with our [Legal Documentation and Disclaimer](https://mainstreamtoken.com/legal) and [Terms of Use]. By using our Website, you consent to our use of cookies as described in this policy, and in compliance with the General Data Protection Regulation (GDPR) and other applicable laws in your jurisdiction. We are also subject to the limitations and disclaimers set forth in our Legal Documentation and Disclaimer.
 
-## 1. Introduction
+If you are located in a jurisdiction that imposes stricter requirements (e.g., the European Union), we will comply with those requirements, including obtaining explicit consent before placing non-essential cookies.
 
-This Cookie Policy explains how Mainstream Token ("we," "us," or "our") uses cookies and similar tracking technologies on the [mainstreamtoken.com](https://mainstreamtoken.com) website (the "Website"). 
+**2. WHAT ARE COOKIES?**
 
-This policy should be read in conjunction with our:
+Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work, or work more efficiently, as well as to provide information to the owners of the site. Cookies allow the website to remember your actions and preferences (such as login, language, font size, and other display preferences) over a period, so you don't have to keep re-entering them whenever you come back to the site or browse from one page to another.
 
-- [Legal Documentation and Disclaimer](/contact/legal/disclaimer)
-- [Terms of Use](/contact/legal/terms)
+**3. TYPES OF COOKIES WE USE**
 
-By using our Website, you consent to our use of cookies as described in this policy, in compliance with the General Data Protection Regulation (GDPR) and other applicable laws in your jurisdiction.
+We use the following types of cookies on our Website:
 
-## 2. What Are Cookies?
+*   **Strictly Necessary Cookies:** These cookies are essential to enable you to move around the Website and use its features, such as accessing secure areas. Without these cookies, services you have asked for, like secure areas, cannot be provided. These cookies do not collect any personal information about you.
+*  **Third-Party Cookies:** Our website does not use third-party cookies. Any third party links are subject to their own cookie policy.
 
-Cookies are small text files placed on your computer or mobile device when you visit a website. They are widely used to:
+**4. PURPOSES OF COOKIES**
 
-- Make websites work or work more efficiently
-- Provide information to website owners
-- Remember your actions and preferences (login, language, font size, etc.)
+We use cookies for the following purposes:
 
-## 3. Types of Cookies We Use
+*   To ensure the proper functioning of the Website and to facilitate navigation.
+*   To maintain a record of consent, as required by applicable laws.
 
-We use the following types of cookies:
+**5. HOW TO MANAGE COOKIES**
 
-| Type | Description |
-|------|-------------|
-| **Strictly Necessary Cookies** | Essential for website functionality (e.g., secure areas) |
-| **Third-Party Cookies** | Not currently used on our site |
+You have the ability to control how cookies are used. Most web browsers allow you to manage cookies through their settings. You can usually choose to:
 
-## 4. Purposes of Cookies
+*   **Accept All Cookies:** This will allow all cookies on our website.
+*   **Block All Cookies:** This will prevent any cookies from being used.
+*   **Accept Some Cookies:** This allows you to choose which cookies you are comfortable with.
+*   **Be Warned When Receiving Cookies:** You will be notified when a new cookie attempts to be placed on your device, allowing you to accept or reject the cookie.
 
-We use cookies to:
+We do not currently respond to Do Not Track browser signals. Users may, however, utilize their browser settings or third-party privacy tools to manage how cookies are placed on their devices.
 
-- Ensure proper website functionality
-- Facilitate navigation
-- Maintain consent records (as required by law)
+To manage cookies on your specific browser, please refer to the "Help" or "Settings" section of your browser.
 
-## 5. Managing Cookies
+**Important Note:** Blocking or deleting certain cookies may affect your ability to fully use all features of our Website, or may cause the Website to not function correctly.
 
-You can control cookies through your browser settings:
+**6. CONSENT TO COOKIES**
 
-- Accept All Cookies
-- Block All Cookies
-- Accept Some Cookies
-- Be Warned When Receiving Cookies
+When you visit our Website for the first time, a cookie banner will appear requesting your explicit consent for non-essential cookies. By clicking 'Accept' in the banner, you agree to the placement of cookies as described in this Cookie Policy. If you do not agree with the use of the non-essential cookies, you must choose the 'Reject' option in the cookie banner. If you choose to continue using the website without taking any action, only essential cookies will be used. We maintain a record of cookie consents where required by law.
 
-**Note:** Blocking or deleting certain cookies may affect website functionality.
+**7. YOUR RIGHTS UNDER GDPR**
 
-## 6. Consent to Cookies
+Under the GDPR, you have the following rights:
+*   The right to access your personal data.
+*   The right to rectify inaccurate data.
+*   The right to erase your data ("right to be forgotten").
+*   The right to restrict the processing of your data.
+*   The right to data portability.
+*   The right to object to the processing of your data.
 
-When you first visit our Website:
+We retain personal data collected through cookies only for as long as is necessary for the stated purpose, or as required by law. Data will be deleted or anonymized after it is no longer needed. For more information on your data rights, please see our [Privacy Policy link].
 
-- A cookie banner will appear
-- Click 'Accept' to consent to non-essential cookies
-- Click 'Reject' to only allow essential cookies
-- No action = only essential cookies used
+**8. DATA PROCESSING**
 
-We maintain records of cookie consents where required by law.
+The data we collect from you may be processed on servers located outside of the European Union. By using our website, you are agreeing to the processing of your data in that location.
 
-## 7. Your GDPR Rights
+**9. COOKIE LIST**
 
-Under GDPR, you have the right to:
+Below is a list of the specific cookies we use, along with their expiration dates and purposes:
 
-- Access your personal data
-- Rectify inaccurate data
-- Erase your data ("right to be forgotten")
-- Restrict data processing
-- Data portability
-- Object to data processing
+*   `Cookie Name`: `session`
+    **Type**: Strictly Necessary
+    **Purpose**: Authentication and session management
+    **Duration**: 24 hours from login
+    **Security Features**:
+     *  HttpOnly flag prevents client-side JavaScript access
+     *   Path restricted to "/" for proper domain-wide access
+     *   Contains an encrypted JWT token for secure authentication
+    **Data Stored**: The cookie contains an encrypted JSON Web Token (JWT) that includes:
+        *  User ID (encrypted)
+         * Expiration timestamp
+         * Digital signature for verification
 
-We retain cookie data only as long as necessary, then delete or anonymize it.
+   **Disclaimer:** This list may be updated as the website is updated, and may not be fully accurate.
 
-## 8. Data Processing
+**10. ANALYTICS & THIRD-PARTY INTEGRATIONS**
 
-Data may be processed on servers outside the European Union. By using our site, you agree to this processing.
+We do not currently embed third-party analytics scripts or social media widgets. Should we integrate such tools in the future, we will update this policy and request your explicit consent for any resulting third-party cookies.
+This website may contain links to other websites. Please note that any links to a third-party website does not mean that we endorse that site, or that we are responsible for its privacy or data collection policies. You agree that we are not responsible for, nor liable for, any data that is collected by those third-party sites. You must review each individual site's cookie policy before proceeding to use it.
 
-## 9. Cookie List
+**11. DO NOT TRACK SIGNALS**
 
-### Session Cookie
+We do not currently respond to Do Not Track browser signals. Users may, however, utilize their browser settings or third-party privacy tools to manage how cookies are placed on their devices.
 
-| Attribute | Value |
-|-----------|-------|
-| Name | `session` |
-| Type | Strictly Necessary |
-| Purpose | Authentication & session management |
-| Duration | 24 hours from login |
-| Security Features | HttpOnly flag, path restricted to "/", encrypted JWT token |
-| Data Stored | Encrypted JSON Web Token (JWT) containing:<br />- User ID (encrypted)<br />- Expiration timestamp<br />- Digital signature |
+**12. CONSISTENCY WITH OTHER POLICIES & DISCLAIMERS**
 
-**Disclaimer:** This list may be updated as the website evolves.
+Any use of cookies and similar technologies is subject to the limitations and disclaimers in our [Legal Documentation link] and [Terms of Use link]. Should a conflict arise between this Cookie Policy and our Terms of Use, the Terms of Use shall govern.
 
-## 10. Analytics & Third-Party Integrations
+**13. COOKIE ENFORCEMENT**
 
-We currently do not use:
+If you attempt to tamper with the cookie settings or misrepresent your consent to cookies, this may result in a limited access to the functionality of the Website.
 
-- Third-party analytics scripts
-- Social media widgets
+**14. PRIVACY POLICY**
 
-Any future integrations will require explicit consent.
+For more information on how we handle personal data, including user rights and data transfers, please read our [Privacy Policy link].
 
-## 11. Do Not Track Signals
+**15. CONTACT US**
 
-We do not currently respond to Do Not Track browser signals.
+If you have any questions about this Cookie Policy, please contact us at:
+[https://github.com/mainstreamorganization/mainstreamtoken/discussions](https://github.com/mainstreamorganization/mainstreamtoken/discussions)
 
-## 12. Policy Consistency
+**16. DISCLAIMER**
 
-This Cookie Policy is subject to our:
-
-- [Legal Documentation](/contact/legal/disclaimer)
-- [Terms of Use](/contact/legal/terms)
-
-In case of conflict, the Terms of Use govern.
-
-## 13. Cookie Enforcement
-
-Tampering with cookie settings or misrepresenting consent may limit website functionality.
-
-## 14. Privacy Policy
-
-For more information, see our [Privacy Policy](/contact/legal/privacy).
-
-## 15. Contact Us
-
-Questions? Contact us at:  
-[GitHub Discussions](https://github.com/mainstreamorganization/mainstreamtoken/discussions)
-
-## 16. Disclaimer
-
-This Cookie Policy is informational only and does not constitute legal advice. Consult a qualified legal professional for compliance guidance.
+This Cookie Policy is for informational purposes only and does not constitute legal advice. We recommend you consult with a qualified legal professional to ensure your full compliance with all applicable laws and regulations. This Cookie Policy is also subject to the limitations and disclaimers set forth in our Legal Documentation and Disclaimer.
