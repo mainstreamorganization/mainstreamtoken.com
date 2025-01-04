@@ -13,8 +13,8 @@ const config: Config = {
 //  url: 'https://mainstreamtoken.com', // Replace with your GitHub username
 //  baseUrl: '/', // Replace with your repository name
 
-  url: 'https://mainstreamorganization.github.io', // Replace with your GitHub username
-  baseUrl: '/mainstreamtoken.com/', // Replace with your repository name
+  url: 'https://mainstreamtoken.com', // Replace with your GitHub username
+  baseUrl: '/', // Replace with your repository name
 
   deploymentBranch: 'gh-pages', // The branch GitHub Pages uses
   trailingSlash: false,
