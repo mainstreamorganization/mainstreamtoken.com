@@ -35,7 +35,7 @@ function LegalNotice() {
 
   const handleDisagree = () => {
     setVisible(false);
-    history.push('/contact/legal/disclaimer');
+    history.push('/contact/legal/disclaimer.md');
     window.location.reload(); // Ensure page reloads with new state
   };
 
@@ -50,10 +50,10 @@ function LegalNotice() {
             By using this website, you agree to our:
           </p>
           <ul>
-            <li><a href="/contact/legal/disclaimer" target="_blank">Legal Disclaimer</a></li>
-            <li><a href="/contact/legal/terms" target="_blank">Terms of Use</a></li>
-            <li><a href="/contact/legal/privacy" target="_blank">Privacy Policy</a></li>
-            <li><a href="/contact/legal/cookies" target="_blank">Cookie Policy</a></li>
+            <li><a href="/contact/legal/disclaimer.md" target="_blank">Legal Disclaimer</a></li>
+            <li><a href="/contact/legal/terms.md" target="_blank">Terms of Use</a></li>
+            <li><a href="/contact/legal/privacy.md" target="_blank">Privacy Policy</a></li>
+            <li><a href="/contact/legal/cookies.md" target="_blank">Cookie Policy</a></li>
           </ul>
           <p>
             Please review these documents carefully before proceeding.
