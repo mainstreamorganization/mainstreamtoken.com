@@ -183,7 +183,7 @@ function HomepageHeader() {
                             style={{ textDecoration: 'none', color: 'inherit' }}
                         >
                             <img
-                                src="/mainstreamtoken.com/img/youtubeicon.png"
+                                src="/img/youtubeicon.png"
                                 alt="Watch on YouTube"
                                 style={{ width: '100px', height: 'auto', cursor: 'pointer' }}
                             />
@@ -204,7 +204,7 @@ function WhatIsMainstreamToken() {
             <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
                     <img 
-                        src="/mainstreamtoken.com/img/mainstreamtoken.webp" 
+                        src="/img/mainstreamtoken.webp" 
                         alt="Mainstream Token" 
                         style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px' }}
                     />
