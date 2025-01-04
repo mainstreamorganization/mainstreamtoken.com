@@ -128,10 +128,6 @@ const config: Config = {
               label: 'MTL Decoder',
               to: '/app/decoder',
             },
-             {
-              label: 'Make MTL Payment',
-              to: '/app/payment',
-            },
           ],
         },
         {
