@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import LegalNotice from '@site/src/components/LegalNotice';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -308,6 +309,30 @@ function Tokenomics() {
 }
 
 export default function Home(): JSX.Element {
+  const [showDisagreeMessage, setShowDisagreeMessage] = useState(false);
+
+  if (showDisagreeMessage) {
+    return (
+      <div style={{
+        padding: '2rem',
+        maxWidth: '800px',
+        margin: '0 auto',
+        textAlign: 'center'
+      }}>
+        <h2>Access Restricted</h2>
+        <p>
+          Access to this website requires agreement to our terms of service and disclaimer. 
+          You have chosen not to agree, and therefore access is not available at this time.
+        </p>
+        <p>
+          If you wish to discuss this further, please contact us at{' '}
+          <a href="https://github.com/mainstreamorganization/mainstreamtoken/discussions">
+            GitHub Discussions
+          </a>.
+        </p>
+      </div>
+    );
+  }
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
@@ -322,6 +347,7 @@ export default function Home(): JSX.Element {
                 <Tokenomics />
             </main>
             <FooterWarning />
+            <LegalNotice onDisagree={() => setShowDisagreeMessage(true)} />
         </Layout>
     );
 }
