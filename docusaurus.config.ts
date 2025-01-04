@@ -261,6 +261,35 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Legal & Contact',
+          items: [
+            {
+              label: 'Contact Us',
+              to: '/contact/us',
+            },
+            {
+              label: 'Community Guidelines',
+              to: '/contact/community-guidelines',
+            },
+            {
+              label: 'Legal Disclaimer',
+              to: '/contact/legal/disclaimer',
+            },
+            {
+              label: 'Terms of Use',
+              to: '/contact/legal/terms',
+            },
+            {
+              label: 'Privacy Policy',
+              to: '/contact/legal/privacy',
+            },
+            {
+              label: 'Cookie Policy',
+              to: '/contact/legal/cookies',
+            }
+          ],
+        },
       ],
       copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Resered. CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3.</span>`,
     },
