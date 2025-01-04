@@ -458,7 +458,7 @@ function App() {
                                 className="button button--secondary"
                                 style={{ position: 'absolute', right: '5px', top: '5px' }}
                                 onClick={() => {
-                                    const textToCopy = `\`\`\`mtl:1\n${licenseString}\n${feeWallet}${splits.filter(split => split.percentage && split.wallet).map(split => `\n${split.wallet}`).join('')}\n\`\`\``;
+                                    const textToCopy = `\`\`\`mtl:0\n${licenseString}\n${feeWallet}${splits.filter(split => split.percentage && split.wallet).map(split => `\n${split.wallet}`).join('')}\n\`\`\``;
                                     
                                     // Try using the Clipboard API first
                                     if (navigator.clipboard && window.isSecureContext) {
