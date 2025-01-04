@@ -34,7 +34,9 @@ function LegalNotice() {
   };
 
   const handleDisagree = () => {
+    setVisible(false);
     history.push('/contact/legal/disclaimer');
+    window.location.reload(); // Ensure page reloads with new state
   };
 
   if (!visible) return null;
