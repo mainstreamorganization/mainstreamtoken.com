@@ -259,6 +259,10 @@ const config: Config = {
               label: 'X',
               href: 'https://x.com/mnstrmtoken',
             },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/@mainstreamtoken',
+            },
           ],
         },
         {
