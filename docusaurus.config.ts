@@ -173,8 +173,9 @@ const config: Config = {
           title: 'Mainstream Token',
           items: [
             {
-              label: 'Experimental digital rights\nmanagement through\nblockchain technology.',
+              label: 'Experimental digital rights management through blockchain technology.',
               to: '#',
+              style: { whiteSpace: 'normal', maxWidth: '200px' }
             },
           ],
         },
