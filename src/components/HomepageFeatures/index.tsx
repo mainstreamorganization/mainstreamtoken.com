@@ -74,13 +74,13 @@ export default function HomepageFeatures(): JSX.Element {
           ))}
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
-          <a href="/app/encoder" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+          <a href="/app/encoder" target="_blank" rel="noopener noreferrer" className="button button--primary">
             Generate License
           </a>
-          <a href="/app/decoder" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+          <a href="/app/decoder" target="_blank" rel="noopener noreferrer" className="button button--primary">
             Decode License
           </a>
-          <a href="https://aidamis.com" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+          <a href="https://aidamis.com" target="_blank" rel="noopener noreferrer" className="button button--primary">
             Talk to Aidamis
           </a>
         </div>
