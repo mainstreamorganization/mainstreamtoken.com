@@ -23,14 +23,27 @@ For technical inquiries and development-related questions, please contact us thr
 
 ## Contact Form
 
-<iframe 
-  src="https://docs.google.com/forms/d/e/1FAIpQLSfGRlzBB0DOLDBMZfhN6ym8ZmpYlyNJ98Zd8tJxDrUbl8DhGg/viewform?embedded=true" 
-  width="100%" 
-  height="872" 
-  frameborder="0" 
-  marginheight="0" 
-  marginwidth="0"
-  style="max-width: 640px; margin: 20px auto; display: block;"
->
-  Loading…
-</iframe>
+<div style={{ 
+  position: 'relative', 
+  paddingBottom: '120%', 
+  height: 0, 
+  overflow: 'hidden',
+  maxWidth: '640px',
+  margin: '20px auto'
+}}>
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSfGRlzBB0DOLDBMZfhN6ym8ZmpYlyNJ98Zd8tJxDrUbl8DhGg/viewform?embedded=true"
+    style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      width: '100%',
+      height: '100%',
+      border: 0
+    }}
+    loading="lazy"
+    title="Mainstream Token Contact Form"
+  >
+    Loading…
+  </iframe>
+</div>
