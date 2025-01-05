@@ -236,12 +236,31 @@ function WhatIsMainstreamToken() {
                     What is Mainstream Token?
 		   
                 </Heading>
-                <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)', textAlign: 'center' }}>
-                    Mainstream Token ($MAIN), created with precise timing on Jan 03, 2025 12:34:56 UTC on Bitcoin's 15th birthday, is an experimental digital asset on the Solana blockchain, designed to provide a
-                    unique blend of AI guided community-focused development.
-                    It utilizes the experimental Mainstream Token License (MTL) protocol to enable decentralized digital
-                    rights management. 
-                </p>
+                <div style={{ 
+                    display: 'flex', 
+                    flexDirection: 'column', 
+                    alignItems: 'center',
+                    gap: '1rem',
+                    margin: '2rem 0'
+                }}>
+                    <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)', textAlign: 'center' }}>
+                        Mainstream Token ($MAIN), created with precise timing on Jan 03, 2025 12:34:56 UTC on Bitcoin's 15th birthday, is an experimental digital asset on the Solana blockchain, designed to provide a
+                        unique blend of AI guided community-focused development.
+                        It utilizes the experimental Mainstream Token License (MTL) protocol to enable decentralized digital
+                        rights management. 
+                    </p>
+                    <img 
+                        src="/img/mnstrmtokenofficialts.png" 
+                        alt="Mainstream Token Official" 
+                        style={{ 
+                            width: '100%', 
+                            maxWidth: '600px',
+                            height: 'auto',
+                            borderRadius: '8px',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                        }} 
+                    />
+                </div>
             </div>
         </section>
     );
