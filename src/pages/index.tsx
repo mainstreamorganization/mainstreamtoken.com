@@ -245,6 +245,19 @@ function HomepageHeader() {
                             Click to copy
                           </div>
                         </div>
+                        <Link
+                          to="/app/decoder"
+                          style={{
+                            display: 'block',
+                            textAlign: 'center',
+                            marginTop: '0.5rem',
+                            color: 'var(--ifm-color-primary)',
+                            textDecoration: 'underline',
+                            fontSize: '0.9rem'
+                          }}
+                        >
+                          Decode License Here
+                        </Link>
                     </div>
                 </div>
                 <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
