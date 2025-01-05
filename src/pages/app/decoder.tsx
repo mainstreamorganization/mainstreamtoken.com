@@ -39,52 +39,19 @@ function Decoder() {
             }
 
             // Split the main part into components
-            // Split into parts and handle both MTLv0.1/ and MTLv0.1-[types]/ formats
-            const parts = mainPart.split(/[-/]/);
-            console.log('About to process parts:', parts);
+            const parts = mainPart.split('/');
             
-            // Parse license types from the first part (after MTLv1-)
-            let types;
-            const typeStr = parts[0].includes('-') ? parts[0].split('-')[1] : '';
-            if (typeStr) {
-                types = typeStr.split('').map(type => {
-                    switch(type) {
-                        case 'P': return { code: 'P', name: 'Personal Use', description: 'License for individual, non-commercial use only' };
-                        case 'C': return { code: 'C', name: 'Commercial Use', description: 'License for business and commercial applications' };
-                        case 'N': return { code: 'N', name: 'Non-Profit Use', description: 'License for non-profit organization use' };
-                        case 'D': return { code: 'D', name: 'Derivative Work', description: 'License allows creation of derivative works' };
-                        default: return { code: type, name: `Unknown (${type})`, description: 'Unknown license type' };
-                    }
-                });
-            } else {
-                types = [{
-                    code: 'A',
-                    name: 'All Uses',
-                    description: 'License allows all types of usage including Personal Use, Commercial Use, Non-Profit Use, and Derivative Works'
-                }];
-            }
+            // Parse license types - default to All Uses for this format
+            const types = [{
+                code: 'A',
+                name: 'All Uses',
+                description: 'License allows all types of usage including Personal Use, Commercial Use, Non-Profit Use, and Derivative Works'
+            }];
             
             console.log('Processed types:', types);
 
-            // Parse fee and splits if present
-            let feeAndSplits = null;
-            console.log('Checking for fee and splits in parts:', parts);
-            
-            if (parts && parts.length > 2) {
-                const feePart = parts[2];
-                console.log('Fee part:', feePart);
-                
-                if (feePart && feePart.includes('-')) {
-                    const [fee, ...splits] = feePart.split(/[-:]/);
-                    console.log('Extracted fee:', fee);
-                    console.log('Extracted splits:', splits);
-                    
-                    feeAndSplits = {
-                        fee: fee,
-                        splits: splits
-                    };
-                }
-            }
+            // Parse fee and splits - not present in this format
+            const feeAndSplits = null;
             
             console.log('Processed feeAndSplits:', feeAndSplits);
 
