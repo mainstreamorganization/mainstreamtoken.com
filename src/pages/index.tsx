@@ -261,7 +261,7 @@ function WhatIsMainstreamToken() {
                         }} 
                     />
                     <p style={{ fontStyle: 'italic', textAlign: 'center', marginTop: '1rem' }}>
-                        This website can only be operational subsequent to the creation of the Mainstream token at the precise time of Jan 03, 2025, 12:34:56 UTC.
+                        This website can only be operational subsequent to the creation of $MAIN at the precise time of Jan 03, 2025, 12:34:56 UTC.
                     </p>
                 </div>
             </div>
