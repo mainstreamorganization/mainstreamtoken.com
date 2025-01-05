@@ -4,8 +4,8 @@ CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
 
 https://pump.fun/coin/HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
 
-Website update in progress, will make announcement soon!
+AI powered by [Aidamis](https://aidamis.com)
 
-TG chat powered by [Aidamis](https://aidamis.com)
+Join telegram group [https://t.me/mainstreamtoken](https://t.me/mainstreamtoken) 
 
-Join telegram group [https://t.me/mainstreamtoken](https://t.me/mainstreamtoken) for early notifications.
+Visit [MainstreamToken.com website](https://mainstreamtoken.com/)
