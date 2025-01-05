@@ -82,7 +82,7 @@ function Decoder() {
             };
 
             const decoded = {
-                version: 'MTLv1',
+                version: 'MTLv0.1',
                 types: [{
                     code: 'A',
                     name: 'All Uses (Personal, Commercial, Non-Profit, Derivative)',
