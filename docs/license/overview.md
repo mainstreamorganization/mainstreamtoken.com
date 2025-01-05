@@ -19,7 +19,7 @@ The Mainstream Token License (MTL) experimental protocol is a decentralized digi
 
 1.  **License Creation:** Creators use the MTL Generator to define the terms of their license, including usage rights, duration, revenue splits, and other parameters.
 2.  **License Encoding:** The license parameters are encoded into a unique MTL string, which is then associated with the digital asset.
-3.  **Token Requirement:** Users must hold a specified amount of $MAIN Tokens to access the licensed content.
+3.  **Token Requirement:** Users must hold a specified amount of $MAIN Tokens or otherwise specified in the parametric license to have rights of use of the licensed content.
 4.  **Verification:** The MTL experimental protocol verifies token ownership and license parameters to grant access to the digital asset.
 5.  **Payment and Revenue Sharing:** The experimental protocol facilitates payment for access and automatically distributes revenue to the specified wallets.
 
