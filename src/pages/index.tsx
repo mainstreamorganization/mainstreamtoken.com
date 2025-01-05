@@ -164,11 +164,12 @@ function HomepageHeader() {
                     </div>
                     <div style={{ 
                         textAlign: 'center', 
-                        marginTop: '5px', 
+                        marginTop: '0', 
                         fontSize: '0.9rem', 
                         color: 'var(--ifm-font-color-base)',
                         wordBreak: 'break-all',
-                        padding: '0 5px'
+                        padding: '0 5px',
+                        marginBottom: '0'
                     }}>
                         <div 
                           style={{ 
