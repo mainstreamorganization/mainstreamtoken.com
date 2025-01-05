@@ -172,12 +172,20 @@ function HomepageHeader() {
                     }}>
                         <pre style={{
                             background: 'var(--ifm-code-background)',
-                            padding: '0.5rem',
+                            padding: '1rem',
                             borderRadius: '4px',
-                            display: 'inline-block',
-                            margin: '0.25rem 0'
+                            display: 'block',
+                            margin: '0.25rem 0',
+                            overflowX: 'auto',
+                            whiteSpace: 'pre-wrap',
+                            wordBreak: 'break-all',
+                            maxWidth: '100%'
                         }}>
-                            <code style={{color: 'var(--ifm-color-primary)'}}>
+                            <code style={{
+                                color: 'var(--ifm-color-primary)',
+                                display: 'block',
+                                overflowX: 'auto'
+                            }}>
                                 ```mtl:0
                                 MTLv0.1/100
                                 sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
