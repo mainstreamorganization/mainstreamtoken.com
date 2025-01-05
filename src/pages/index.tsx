@@ -181,7 +181,7 @@ function HomepageHeader() {
                             cursor: 'pointer'
                           }}
                           onClick={() => {
-                            const textToCopy = `\`\`\`mtl:0\nMTLv0.1/100\nsol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3\n\`\`\``;
+                            const textToCopy = `MTLv0.1/100\nsol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3`;
                             
                             // Try using Clipboard API first
                             if (navigator.clipboard && window.isSecureContext) {
