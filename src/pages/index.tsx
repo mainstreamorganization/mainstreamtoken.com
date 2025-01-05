@@ -270,10 +270,10 @@ function HomepageHeader() {
                     </p>
                     <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)' }}>
                         An experimental protocol for digital content licensing with token holdings.
-                        This system gives alternative options for content creators to define a parametric licensing framework*.
+                        This system gives alternative options for content creators to define a <u>parametric licensing framework</u>*.
 				</p>
                     <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)' }}>
-                        We envision a world where creators define their own terms, turning digital rights into mainstream tokens.
+                        We envision a world where creators define their own terms, turning digital rights into <strong>mainstream tokens</strong>.
                     </p>
                     <div className={styles.buttons}>
                         <Link
