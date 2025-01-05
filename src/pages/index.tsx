@@ -177,10 +177,13 @@ function HomepageHeader() {
                             display: 'inline-block',
                             margin: '0.25rem 0'
                         }}>
-                            <code style={{color: 'var(--ifm-color-primary)'}}>```mtl:0</code>
-                        </pre><br/>
-                        <code>MTLv0.1/100</code><br/>
-                        <code>sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3</code>
+                            <code style={{color: 'var(--ifm-color-primary)'}}>
+                                ```mtl:0
+                                MTLv0.1/100
+                                sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+                                ```
+                            </code>
+                        </pre>
                     </div>
                 </div>
                 <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
