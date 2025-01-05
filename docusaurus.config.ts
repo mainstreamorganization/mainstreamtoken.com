@@ -300,7 +300,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserved. CA : <span style="cursor: pointer" onClick="navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3').then(() => alert('Contract address copied!')).catch(() => alert('Failed to copy address'))">HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3</span></span>`,
+      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserved. CA : <span style="cursor: pointer" onClick="(function(e) { const address = 'HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3'; if (navigator.clipboard && window.isSecureContext) { navigator.clipboard.writeText(address).then(() => alert('Contract address copied!')).catch(() => { const el = document.createElement('textarea'); el.value = address; el.style.position = 'fixed'; el.style.left = '-9999px'; document.body.appendChild(el); el.select(); try { document.execCommand('copy'); alert('Contract address copied!'); } catch(err) { alert('Failed to copy address'); } document.body.removeChild(el); }); } else { const el = document.createElement('textarea'); el.value = address; el.style.position = 'fixed'; el.style.left = '-9999px'; document.body.appendChild(el); el.select(); try { document.execCommand('copy'); alert('Contract address copied!'); } catch(err) { alert('Failed to copy address'); } document.body.removeChild(el); } })(event)">HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3</span></span>`,
     },
     prism: {
       theme: prismThemes.github,
