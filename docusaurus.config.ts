@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Mainstream Token',
   tagline: 'With An Experimental Token-Based Rights Management Protocol',
-  favicon: 'img/mtlogo.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
 //  url: 'https://mainstreamtoken.com', // Replace with your GitHub username
