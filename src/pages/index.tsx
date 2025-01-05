@@ -164,11 +164,11 @@ function HomepageHeader() {
                     </div>
                     <div style={{ 
                         textAlign: 'center', 
-                        marginTop: '10px', 
+                        marginTop: '5px', 
                         fontSize: '0.9rem', 
                         color: 'var(--ifm-font-color-base)',
                         wordBreak: 'break-all',
-                        padding: '0 10px'
+                        padding: '0 5px'
                     }}>
                         <div 
                           style={{ 
@@ -256,7 +256,7 @@ function HomepageHeader() {
                             fontSize: '0.9rem'
                           }}
                         >
-                          Copy Above License and Decode Here
+                          Copy license, decode here.
                         </Link>
                     </div>
                 </div>
