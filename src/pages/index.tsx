@@ -273,7 +273,7 @@ function HomepageHeader() {
                         This system gives alternative options for content creators to define a <u>parametric licensing framework</u>*.
 				</p>
                     <p style={{ fontSize: '1.2rem', color: 'var(--ifm-font-color-base)' }}>
-                        We envision a world where creators define their own terms, turning digital rights into <strong>mainstream tokens</strong>.
+                        For creators to define their own terms, turning digital rights into <strong>mainstream tokens</strong>.
                     </p>
                     <div className={styles.buttons}>
                         <Link
