@@ -22,8 +22,11 @@ function Decoder() {
             
             const lines = cleanLicenseString.split('\n').filter(line => line.trim() !== '');
             
-            // Get the main license part - first line if no code block, second line if code block
-            const mainPart = licenseString.includes('```') ? lines[1] : lines[0];
+            // Get the main license part - handle both direct MTLv0.1 and code block formats
+            const mainPart = lines.find(line => line.startsWith('MTLv0.1'));
+            if (!mainPart) {
+                throw new Error('Invalid license format: Missing MTLv0.1 line');
+            }
             
             // Get payment wallet if present
             const paymentWallets = licenseString.includes('```') ? 
