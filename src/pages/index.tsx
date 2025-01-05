@@ -280,16 +280,37 @@ function WhatIsMainstreamToken() {
 		CA : <span 
           style={{cursor: 'pointer', textDecoration: 'underline'}}
           onClick={() => {
-            if (navigator?.clipboard) {
-              navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3')
+            const address = 'HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3';
+            
+            // Try using Clipboard API first
+            if (navigator.clipboard && window.isSecureContext) {
+              navigator.clipboard.writeText(address)
                 .then(() => {
                   alert('Contract address copied to clipboard!');
                 })
                 .catch(() => {
-                  alert('Failed to copy to clipboard. Please copy manually.');
+                  // Fallback for older browsers
+                  const textArea = document.createElement('textarea');
+                  textArea.value = address;
+                  textArea.style.position = 'fixed';
+                  textArea.style.opacity = '0';
+                  document.body.appendChild(textArea);
+                  textArea.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(textArea);
+                  alert('Contract address copied to clipboard!');
                 });
             } else {
-              alert('Clipboard access not available. Please copy this address manually: HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3');
+              // Fallback for older browsers
+              const textArea = document.createElement('textarea');
+              textArea.value = address;
+              textArea.style.position = 'fixed';
+              textArea.style.opacity = '0';
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand('copy');
+              document.body.removeChild(textArea);
+              alert('Contract address copied to clipboard!');
             }
           }}
         >
