@@ -300,7 +300,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserved. CA : HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3.</span>`,
+      copyright: `<span style="color: #444;">© ${new Date().getFullYear()} Mainstream Token. All Rights Reserved. CA : <span style="cursor: pointer" onClick="navigator.clipboard.writeText('HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3').then(() => alert('Contract address copied!')).catch(() => alert('Failed to copy address'))">HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3</span></span>`,
     },
     prism: {
       theme: prismThemes.github,
