@@ -74,6 +74,9 @@ export default function HomepageFeatures(): JSX.Element {
           ))}
         </div>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem', flexWrap: 'wrap' }}>
+          <a href="/docs/license/overview" className="button button--primary">
+            MTL License Protocol Overview
+          </a>
           <a href="/app/encoder" target="_blank" rel="noopener noreferrer" className="button button--primary">
             Generate License
           </a>
