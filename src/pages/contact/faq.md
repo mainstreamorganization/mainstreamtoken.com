@@ -8,10 +8,10 @@ sidebar_position: 6
 ## General Questions
 
 ### What is Mainstream Token?
-Mainstream Token ($MAIN) is an experimental digital asset on the Solana blockchain that enables decentralized digital rights management through the Mainstream Token License (MTL) protocol.
+Mainstream Token ($MAIN) is an experimental digital asset on the Solana blockchain that uses parametric licensing to define the decentralized digital rights with Mainstream Token License (MTL) protocol.
 
 ### How does the MTL protocol work?
-The MTL protocol allows creators to define usage rights and parameters for their digital assets. Users must hold $MAIN tokens or follow payment instructions to access licensed content.
+The MTL protocol allows creators to define usage rights and parameters for their digital assets. Users must hold $MAIN tokens or other crypto equivalent or follow payment instructions to have right of use to licensed content.
 
 ### Is this legally binding?
 The MTL protocol is experimental and its legal enforceability depends on jurisdiction and specific circumstances. Always consult legal counsel for binding agreements.
