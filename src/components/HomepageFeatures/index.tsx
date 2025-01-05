@@ -73,6 +73,17 @@ export default function HomepageFeatures(): JSX.Element {
             <Feature key={idx} {...props} />
           ))}
         </div>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '2rem' }}>
+          <a href="/app/encoder" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+            Generate License
+          </a>
+          <a href="/app/decoder" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+            Decode License
+          </a>
+          <a href="https://aidamis.com" target="_blank" rel="noopener noreferrer" className="button button--secondary">
+            Talk to Aidamis
+          </a>
+        </div>
       </div>
     </section>
   );
