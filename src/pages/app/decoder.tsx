@@ -13,17 +13,17 @@ function Decoder() {
     const decodeLicense = () => {
         try {
             // Basic validation
-            if (!licenseString.trim().startsWith('```mtl:0') && !licenseString.trim().startsWith('MTLv0.1')) {
-                throw new Error('Invalid license format. Must start with MTLv0.1 or be wrapped in ```mtl:0');
+            if (!licenseString.trim().startsWith('```mtl:0') && !licenseString.trim().startsWith('MTLv0.1') && !licenseString.trim().startsWith('```mtl')) {
+                throw new Error('Invalid license format. Must start with MTLv0.1 or be wrapped in ```mtl:0 or ```mtl');
             }
 
             // Clean up the input by removing markdown code blocks if present
-            const cleanLicenseString = licenseString.replace(/```mtl:0\n|\n```/g, '').trim();
+            const cleanLicenseString = licenseString.replace(/```mtl:0\n|```mtl\n|\n```/g, '').trim();
             
             const lines = cleanLicenseString.split('\n').filter(line => line.trim() !== '');
             
             // Get the main license part - first line if no code block, second line if code block
-            const mainPart = licenseString.includes('```mtl:0') ? lines[1] : lines[0];
+            const mainPart = licenseString.includes('```mtl:0') || licenseString.includes('```mtl') ? lines[1] : lines[0];
             
             // Get payment wallet if present
             const paymentWallets = licenseString.includes('```mtl:0') ? 
