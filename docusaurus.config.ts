@@ -135,7 +135,7 @@ const config: Config = {
         },
         {
           type: 'dropdown',
-          label: 'Contact',
+          label: 'About',
           position: 'left',
           items: [
             {
