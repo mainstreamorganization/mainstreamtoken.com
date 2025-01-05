@@ -364,6 +364,11 @@ function Decoder() {
                     </div>
                 )}
             </div>
+            <div style={{ marginTop: '2rem', textAlign: 'center' }}>
+              <a href="/contact/faq" style={{ color: 'var(--ifm-color-primary)' }}>
+                Visit our FAQ for more information
+              </a>
+            </div>
             <FooterWarning />
         </Layout>
     );
