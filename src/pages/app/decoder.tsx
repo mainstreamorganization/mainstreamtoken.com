@@ -12,30 +12,31 @@ function Decoder() {
 
     const decodeLicense = () => {
         try {
-             // Basic validation
-            if (!licenseString.trim().startsWith('```mtl:0.1') && !licenseString.trim().startsWith('MTLv1')) {
-                throw new Error('Invalid license format. Must start with MTLv0.1- or MTLv0.1/ or be wrapped in ```mtl:0.1');
+            // Basic validation
+            if (!licenseString.trim().startsWith('```mtl:0') && !licenseString.trim().startsWith('MTLv0.1')) {
+                throw new Error('Invalid license format. Must start with MTLv0.1 or be wrapped in ```mtl:0');
             }
 
             // Clean up the input by removing markdown code blocks if present
-            const cleanLicenseString = licenseString.replace(/```mtlv0.1\n|\n```/g, '').trim();
-
-            console.log('Input license string:', licenseString);
-            console.log('License string type:', typeof licenseString);
-
+            const cleanLicenseString = licenseString.replace(/```mtl:0\n|\n```/g, '').trim();
+            
             const lines = cleanLicenseString.split('\n').filter(line => line.trim() !== '');
-            console.log('Split lines:', lines);
             
-            // Get the actual license string (second line after ```mtl:1)
-            const mainPart = lines.length > 1 ? lines[1] : '';
-            console.log('Main part:', mainPart);
+            // Get the main license part - first line if no code block, second line if code block
+            const mainPart = licenseString.includes('```') ? lines[1] : lines[0];
             
-            // Get all payment wallet lines after the license string
-            const paymentWallets = lines.slice(2).filter(line => /^[a-zA-Z]+:/.test(line));
-            console.log('Payment wallet lines:', paymentWallets);
+            // Get payment wallet if present
+            const paymentWallets = licenseString.includes('```') ? 
+                lines.slice(2).filter(line => /^[a-zA-Z]+:/.test(line)) :
+                lines.slice(1).filter(line => /^[a-zA-Z]+:/.test(line));
 
             if (!mainPart) {
-                throw new Error('Invalid license format: Empty main part');
+                throw new Error('Invalid license format: Empty license string');
+            }
+
+            // Validate the license format
+            if (!mainPart.startsWith('MTLv0.1')) {
+                throw new Error('Invalid license format. Must start with MTLv0.1');
             }
 
             // Split the main part into components
