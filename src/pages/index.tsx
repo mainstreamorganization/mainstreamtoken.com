@@ -325,10 +325,9 @@ function Tokenomics() {
                     <div style={{ flex: '1 1 300px', textAlign: 'center', padding: '1rem' }}>
                         <h3>Distribution</h3>
                         <ul style={{ listStyle: 'none', padding: 0 }}>
-                            <li>Available for Initial Purchase: 60%</li>
+                            <li>Available for Initial Purchase: 70%</li>
                             <li>Internal Use Vested For 1 Year: 20%</li>
                             <li>Internal Use Immediately: 10%</li>
-                            <li>Team: 10%</li>
                         </ul>
                     </div>
                     <div style={{ flex: '1 1 300px', textAlign: 'center', padding: '1rem' }}>
