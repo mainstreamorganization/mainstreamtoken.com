@@ -250,13 +250,13 @@ function HomepageHeader() {
                           style={{
                             display: 'block',
                             textAlign: 'center',
-                            marginTop: '0.5rem',
+                            marginTop: '0.25rem',
                             color: 'var(--ifm-color-primary)',
                             textDecoration: 'underline',
                             fontSize: '0.9rem'
                           }}
                         >
-                          Decode License Here
+                          Copy Above License and Decode Here
                         </Link>
                     </div>
                 </div>
