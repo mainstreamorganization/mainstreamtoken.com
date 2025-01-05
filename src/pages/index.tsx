@@ -170,7 +170,15 @@ function HomepageHeader() {
                         wordBreak: 'break-all',
                         padding: '0 10px'
                     }}>
-                        <code>mtl:0</code><br/>
+                        <pre style={{
+                            background: 'var(--ifm-code-background)',
+                            padding: '0.5rem',
+                            borderRadius: '4px',
+                            display: 'inline-block',
+                            margin: '0.25rem 0'
+                        }}>
+                            <code style={{color: 'var(--ifm-color-primary)'}}>```mtl:0</code>
+                        </pre><br/>
                         <code>MTLv0.1/100</code><br/>
                         <code>sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3</code>
                     </div>
