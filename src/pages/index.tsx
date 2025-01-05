@@ -170,28 +170,81 @@ function HomepageHeader() {
                         wordBreak: 'break-all',
                         padding: '0 10px'
                     }}>
-                        <pre style={{
+                        <div 
+                          style={{ 
+                            position: 'relative',
                             background: 'var(--ifm-code-background)',
                             padding: '1rem',
                             borderRadius: '4px',
-                            display: 'block',
                             margin: '0.25rem 0',
+                            maxWidth: '100%',
+                            cursor: 'pointer'
+                          }}
+                          onClick={() => {
+                            const textToCopy = `\`\`\`mtl:0\nMTLv0.1/100\nsol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3\n\`\`\``;
+                            
+                            // Try using Clipboard API first
+                            if (navigator.clipboard && window.isSecureContext) {
+                              navigator.clipboard.writeText(textToCopy)
+                                .then(() => {
+                                  alert('License string copied to clipboard!');
+                                })
+                                .catch(() => {
+                                  // Fallback for older browsers
+                                  const textArea = document.createElement('textarea');
+                                  textArea.value = textToCopy;
+                                  textArea.style.position = 'fixed';
+                                  textArea.style.opacity = '0';
+                                  document.body.appendChild(textArea);
+                                  textArea.select();
+                                  document.execCommand('copy');
+                                  document.body.removeChild(textArea);
+                                  alert('License string copied to clipboard!');
+                                });
+                            } else {
+                              // Fallback for older browsers
+                              const textArea = document.createElement('textarea');
+                              textArea.value = textToCopy;
+                              textArea.style.position = 'fixed';
+                              textArea.style.opacity = '0';
+                              document.body.appendChild(textArea);
+                              textArea.select();
+                              document.execCommand('copy');
+                              document.body.removeChild(textArea);
+                              alert('License string copied to clipboard!');
+                            }
+                          }}
+                        >
+                          <pre style={{
+                            margin: 0,
                             overflowX: 'auto',
                             whiteSpace: 'pre-wrap',
-                            wordBreak: 'break-all',
-                            maxWidth: '100%'
-                        }}>
+                            wordBreak: 'break-all'
+                          }}>
                             <code style={{
-                                color: 'var(--ifm-color-primary)',
-                                display: 'block',
-                                overflowX: 'auto'
+                              color: 'var(--ifm-color-primary)',
+                              display: 'block',
+                              overflowX: 'auto'
                             }}>
-                                ```mtl:0
-                                MTLv0.1/100
-                                sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
-                                ```
+                              ```mtl:0
+                              MTLv0.1/100
+                              sol:HT9C48yRmS2kiUYJfLcDX7JidtcKBupe3DE2GDyQr3i3
+                              ```
                             </code>
-                        </pre>
+                          </pre>
+                          <div style={{
+                            position: 'absolute',
+                            top: '0.5rem',
+                            right: '0.5rem',
+                            padding: '0.25rem 0.5rem',
+                            background: 'rgba(255,255,255,0.9)',
+                            borderRadius: '4px',
+                            fontSize: '0.8rem',
+                            color: '#666'
+                          }}>
+                            Click to copy
+                          </div>
+                        </div>
                     </div>
                 </div>
                 <div style={{textAlign: 'left', maxWidth: '90%', paddingLeft: '1rem'}}>
