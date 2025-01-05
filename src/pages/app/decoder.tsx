@@ -23,10 +23,10 @@ function Decoder() {
             const lines = cleanLicenseString.split('\n').filter(line => line.trim() !== '');
             
             // Get the main license part - first line if no code block, second line if code block
-            const mainPart = licenseString.includes('```') ? lines[1] : lines[0];
+            const mainPart = licenseString.includes('```mtl:0') ? lines[1] : lines[0];
             
             // Get payment wallet if present
-            const paymentWallets = licenseString.includes('```') ? 
+            const paymentWallets = licenseString.includes('```mtl:0') ? 
                 lines.slice(2).filter(line => /^[a-zA-Z]+:/.test(line)) :
                 lines.slice(1).filter(line => /^[a-zA-Z]+:/.test(line));
 
