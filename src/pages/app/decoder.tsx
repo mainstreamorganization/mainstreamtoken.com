@@ -89,8 +89,8 @@ function Decoder() {
                     description: 'License allows all types of usage including Personal Use, Commercial Use, Non-Profit Use, and Derivative Works'
                 }],
                 tokens: {
-                    amount: parts[2] || '0',
-                    description: `Requires holding ${parts[2] || '0'} tokens to maintain this license`
+                    amount: parts[1] || '0', // Changed from parts[2] to parts[1]
+                    description: `Requires holding ${parts[1] || '0'} tokens to maintain this license` // Changed from parts[2] to parts[1]
                 },
                 fee: feeAndSplits ? {
                     percentage: feeAndSplits.fee,
