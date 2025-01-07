@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /contact/legal/
+Disallow: /docs/license/parameters
+Disallow: /docs/tokenomics/distribution
+
+Sitemap: https://mainstreamtoken.com/sitemap.xml
