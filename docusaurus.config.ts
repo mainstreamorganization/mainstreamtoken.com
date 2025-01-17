@@ -74,7 +74,7 @@ const config: Config = {
 
   themeConfig: {
     // Social media preview image
-    image: 'img/mnstrmlogo.png',
+    image: 'img/mainstreamtoken.webp',
     colorMode: {
 //      defaultMode: 'dark',
 //      disableSwitch: false,
