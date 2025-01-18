@@ -1,3 +1,0 @@
-# Mainstream Token Whitepaper
-
-
