@@ -4,9 +4,9 @@ This appendix provides technical details about the MainstreamToken (MT) system, 
 
 ## A. Core Protocol
 
-### License String Format (MTL v1.0):
+### License String Format (MTL v0.1):
 
-**Base Format:** `mtl:1-[TYPES]/[TOKENS]-[FEE]/[SPLITS];[CONDITIONS]~[ADDENDUM]~PAY:[PAYMENT_DETAILS]`
+**Base Format:** `mtl:0.1-[TYPES]/[TOKENS]-[FEE]/[SPLITS];[CONDITIONS]~[ADDENDUM]~PAY:[PAYMENT_DETAILS]`
 
 **Payment Information:**
 - `PAY:[payment_details]`: Required field specifying payment information in the format TYPE:DETAILS
@@ -52,8 +52,8 @@ This appendix provides technical details about the MainstreamToken (MT) system, 
 **Examples:**
 Note: For license strings with revenue splits, the lines following the license string indicate the payment wallet addresses. The first wallet address is the primary fee collection wallet, followed by any additional split wallet addresses.
 
-- ```mtl:1
-  MTLv1-P/100;+32M
+- ```mtl:0.1
+  MTLv0.1-P/100;+32M
   sol:901234981203182301
   sol:901234981203182
   sol:9012349812031111
@@ -231,7 +231,7 @@ Compliance Errors (200-299):
 
 ```json
 {
-  "mtl_version": "1.0",
+  "mtl_version": "0.1",
   "tx_hash": "blockchain_transaction_hash_here",
   "tx_timestamp": "timestamp_of_transaction_in_utc",
   "license_data": {

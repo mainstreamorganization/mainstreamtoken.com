@@ -2,7 +2,7 @@
 
 This section provides supplementary information and references to support the main content of the MainstreamToken (MT) whitepaper.
 
-## A. License Parameter Specification (MTL v1.0):
+## A. License Parameter Specification (MTL v0.1):
 
 **Base Format:** <br />`mtl:1-[TYPES]/[TOKENS]-[FEE]/[SPLITS];[CONDITIONS]~[ADDENDUM]`
 <br />`[Pay To]`
@@ -36,7 +36,7 @@ This section provides supplementary information and references to support the ma
 ### Data Structure (JSON Format):
 ```json
 {
-    "mtl_version": "1.0",
+    "mtl_version": "0.1",
     "tx_hash": "blockchain_transaction_hash_here",
     "tx_timestamp": "timestamp_of_transaction_in_utc",
     "license_data": {
@@ -177,6 +177,6 @@ PAYMENT: [Payment Details]
 *   Public verification system, and data storage on the blockchain.
 
 ### Future Updates and Versioning:
-*   The MTL protocol is currently at version 1.0.
+*   The MTL protocol is currently at version 0.1.
 *   Future versions of the protocol will be documented and published on the project's website.
 *   The community will have a say in how future versions of the protocol are defined.
